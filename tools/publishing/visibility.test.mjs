@@ -35,3 +35,28 @@ test('hiding during a level transition still pauses the next playable frame', ()
   page.hidden = true; page.dispatch('visibilitychange');
   assert.equal(scene.status, 'paused');
 });
+
+test('a foreground touch resumes an iOS-interrupted audio context', async () => {
+  const page = target(), host = target(), events = new EventEmitter();
+  const calls = [];
+  const context = { state: 'running', resume() {
+    calls.push('context-resume'); this.state = 'running'; return Promise.resolve();
+  } };
+  const game = { events, scene: { getScenes: () => [] }, sound: {
+    context, pauseAll: () => calls.push('pause'), resumeAll: () => calls.push('resume-all'),
+  } };
+  installVisibilityPause(game, page, host);
+  page.hidden = true; page.dispatch('visibilitychange');
+  context.state = 'interrupted';
+  page.dispatch('touchend');
+  assert.deepEqual(calls, ['pause']);
+  page.hidden = false; page.dispatch('visibilitychange');
+  assert.deepEqual(calls, ['pause', 'resume-all']);
+  context.state = 'suspended';
+  page.dispatch('touchend');
+  assert.deepEqual(calls, ['pause', 'resume-all', 'context-resume']);
+  page.dispatch('click');
+  assert.equal(calls.filter(call => call === 'context-resume').length, 1);
+  events.emit('destroy');
+  assert.equal(page.listeners.size, 0);
+});

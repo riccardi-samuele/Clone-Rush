@@ -6,8 +6,12 @@ size, URL format and the absence of portal SDK or ad calls, then writes SHA-256
 manifests. It converts six decorative PNG images to WebP in the release only,
 leaving gameplay terrain, clones and portals untouched. Python with Pillow is
 required for the packaging step. It leaves previews and browser QA captures in
-place. The resulting web bundle is 17,564,705 bytes (42 files), below
-CrazyGames' 20 MB mobile homepage threshold; the ZIP is 16,004,426 bytes.
+place. The resulting web bundle is 17,564,995 bytes (42 files), below
+CrazyGames' 20 MB mobile homepage threshold; the ZIP is 16,004,518 bytes.
+
+The latest autonomous pre-submission checks are recorded in
+`audit-2026-10-12.md`, including the current SHA-256 digest and outstanding
+rights and portal-preview gates.
 
 The CrazyGames folder also includes `previews/clone-rush-landscape-preview.mp4`
 and `previews/clone-rush-portrait-preview.mp4` (17.52 seconds, mute,

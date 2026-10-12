@@ -40,8 +40,8 @@ export class PlayScene extends Phaser.Scene {
       : 'Move and jump with the buttons below\nGuide every clone to a portal';
     const message = this.number === 1 ? controls : (this.level.tutorial || controls);
     this.tutorial = this.add.text(240, -12, message, {
-      ...ROYAL_TEXT, fontSize: '10px', align: 'center', color: '#0742b9',
-      stroke: '#e8faff', strokeThickness: 2, lineSpacing: 3,
+      ...ROYAL_TEXT, fontSize: '22px', align: 'center', color: '#0742b9',
+      stroke: '#e8faff', strokeThickness: 3, lineSpacing: 5,
     }).setOrigin(.5, 0).setAlpha(0).setDepth(400);
     this.tweens.add({ targets: this.tutorial, alpha: 1, duration: 250, delay: 200 });
     this.tweens.add({ targets: this.tutorial, alpha: 0, duration: 250, delay: 4200 });
