@@ -1,0 +1,751 @@
+{
+  "actors": {
+    "3": {
+      "id": 3,
+      "name": "Player Normal",
+      "sprite": 4,
+      "bodyType": 2,
+      "autoScale": true,
+      "fixedRotation": true,
+      "friction": 0.0,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 0
+    },
+    "5": {
+      "id": 5,
+      "name": "Exit",
+      "sprite": 6,
+      "bodyType": 1,
+      "autoScale": false,
+      "fixedRotation": false,
+      "friction": 0.20000000298023224,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 4
+    },
+    "9": {
+      "id": 9,
+      "name": "Spikes 1",
+      "sprite": 10,
+      "bodyType": 0,
+      "autoScale": false,
+      "fixedRotation": false,
+      "friction": 0.20000000298023224,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 4
+    },
+    "11": {
+      "id": 11,
+      "name": "Spikes 2",
+      "sprite": 12,
+      "bodyType": 0,
+      "autoScale": false,
+      "fixedRotation": false,
+      "friction": 0.20000000298023224,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 4
+    },
+    "13": {
+      "id": 13,
+      "name": "Spikes 4",
+      "sprite": 14,
+      "bodyType": 0,
+      "autoScale": false,
+      "fixedRotation": false,
+      "friction": 0.20000000298023224,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 4
+    },
+    "15": {
+      "id": 15,
+      "name": "Unstable Exit",
+      "sprite": 16,
+      "bodyType": 0,
+      "autoScale": false,
+      "fixedRotation": false,
+      "friction": 0.20000000298023224,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 4
+    },
+    "17": {
+      "id": 17,
+      "name": "Player Reverse",
+      "sprite": 18,
+      "bodyType": 2,
+      "autoScale": true,
+      "fixedRotation": true,
+      "friction": 0.0,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 0
+    },
+    "19": {
+      "id": 19,
+      "name": "Player Nojump",
+      "sprite": 20,
+      "bodyType": 2,
+      "autoScale": true,
+      "fixedRotation": true,
+      "friction": 0.0,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 0
+    },
+    "21": {
+      "id": 21,
+      "name": "Player Particle",
+      "sprite": 22,
+      "bodyType": 2,
+      "autoScale": false,
+      "fixedRotation": false,
+      "friction": 0.20000000298023224,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 2
+    },
+    "23": {
+      "id": 23,
+      "name": "Bounce Block",
+      "sprite": 24,
+      "bodyType": 0,
+      "autoScale": false,
+      "fixedRotation": false,
+      "friction": 0.20000000298023224,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 1
+    },
+    "25": {
+      "id": 25,
+      "name": "Player Slide",
+      "sprite": 26,
+      "bodyType": 2,
+      "autoScale": true,
+      "fixedRotation": true,
+      "friction": 0.0,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 0
+    },
+    "32": {
+      "id": 32,
+      "name": "Exit Key",
+      "sprite": 33,
+      "bodyType": 1,
+      "autoScale": false,
+      "fixedRotation": false,
+      "friction": 0.20000000298023224,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 4
+    },
+    "35": {
+      "id": 35,
+      "name": "Player Gravity",
+      "sprite": 36,
+      "bodyType": 2,
+      "autoScale": true,
+      "fixedRotation": true,
+      "friction": 0.0,
+      "restitution": 0.0,
+      "mass": 1.0,
+      "group": 0
+    }
+  },
+  "sprites": {
+    "4": {
+      "id": 4,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Idle",
+          "frameWidth": 20,
+          "frameHeight": 20,
+          "originX": 10,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": false,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Animation 0",
+          "frameWidth": 40,
+          "frameHeight": 40,
+          "originX": 20,
+          "originY": 20,
+          "shapes": [
+            {
+              "sensor": true,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 6.0,
+                  "y": 6.0
+                },
+                {
+                  "x": 34.0,
+                  "y": 6.0
+                },
+                {
+                  "x": 34.0,
+                  "y": 34.0
+                },
+                {
+                  "x": 6.0,
+                  "y": 34.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Animation 0",
+          "frameWidth": 20,
+          "frameHeight": 20,
+          "originX": 10,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": true,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 13.0
+                },
+                {
+                  "x": 20.0,
+                  "y": 13.0
+                },
+                {
+                  "x": 20.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "id": 12,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Animation 0",
+          "frameWidth": 40,
+          "frameHeight": 20,
+          "originX": 20,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": true,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 13.0
+                },
+                {
+                  "x": 40.0,
+                  "y": 13.0
+                },
+                {
+                  "x": 40.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "14": {
+      "id": 14,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Animation 0",
+          "frameWidth": 80,
+          "frameHeight": 20,
+          "originX": 40,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": true,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 13.0
+                },
+                {
+                  "x": 80.0,
+                  "y": 13.0
+                },
+                {
+                  "x": 80.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "16": {
+      "id": 16,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Animation 0",
+          "frameWidth": 40,
+          "frameHeight": 40,
+          "originX": 20,
+          "originY": 20,
+          "shapes": [
+            {
+              "sensor": true,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 6.0,
+                  "y": 6.0
+                },
+                {
+                  "x": 34.0,
+                  "y": 6.0
+                },
+                {
+                  "x": 34.0,
+                  "y": 34.0
+                },
+                {
+                  "x": 6.0,
+                  "y": 34.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "18": {
+      "id": 18,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Idle",
+          "frameWidth": 20,
+          "frameHeight": 20,
+          "originX": 10,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": false,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "20": {
+      "id": 20,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Idle",
+          "frameWidth": 20,
+          "frameHeight": 20,
+          "originX": 10,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": false,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "22": {
+      "id": 22,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Normal",
+          "frameWidth": 6,
+          "frameHeight": 6,
+          "originX": 3,
+          "originY": 3,
+          "shapes": []
+        }
+      ]
+    },
+    "24": {
+      "id": 24,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Animation 0",
+          "frameWidth": 20,
+          "frameHeight": 20,
+          "originX": 10,
+          "originY": 20,
+          "shapes": [
+            {
+              "sensor": false,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 0.0
+                },
+                {
+                  "x": 20.0,
+                  "y": 0.0
+                },
+                {
+                  "x": 20.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "26": {
+      "id": 26,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Idle",
+          "frameWidth": 20,
+          "frameHeight": 20,
+          "originX": 10,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": false,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "33": {
+      "id": 33,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Animation 0",
+          "frameWidth": 20,
+          "frameHeight": 20,
+          "originX": 10,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": true,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 3.0,
+                  "y": 3.0
+                },
+                {
+                  "x": 17.0,
+                  "y": 3.0
+                },
+                {
+                  "x": 17.0,
+                  "y": 17.0
+                },
+                {
+                  "x": 3.0,
+                  "y": 17.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "36": {
+      "id": 36,
+      "defaultAnimation": 0,
+      "animations": [
+        {
+          "id": 0,
+          "name": "Idle",
+          "frameWidth": 20,
+          "frameHeight": 20,
+          "originX": 10,
+          "originY": 10,
+          "shapes": [
+            {
+              "sensor": false,
+              "friction": 0.20000000298023224,
+              "restitution": 0.0,
+              "density": 0.10000000149011612,
+              "group": -1000,
+              "points": [
+                {
+                  "x": 0.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 1.0
+                },
+                {
+                  "x": 19.0,
+                  "y": 20.0
+                },
+                {
+                  "x": 0.0,
+                  "y": 20.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "audio": [
+    {
+      "id": 30,
+      "name": "Bounce Sound",
+      "key": "audio-30",
+      "paths": [
+        "assets/media/sfx-sound-30-candy-v1.ogg",
+        "assets/media/sfx-sound-30-candy-v1.mp3"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Death Sound",
+      "key": "audio-28",
+      "paths": [
+        "assets/media/sfx-sound-28-candy-v1.ogg",
+        "assets/media/sfx-sound-28-candy-v1.mp3"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Exit Key Sound",
+      "key": "audio-34",
+      "paths": [
+        "assets/media/sfx-sound-34-candy-v1.ogg",
+        "assets/media/sfx-sound-34-candy-v1.mp3"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Exit Sound",
+      "key": "audio-29",
+      "paths": [
+        "assets/media/sfx-sound-29-candy-v1.ogg",
+        "assets/media/sfx-sound-29-candy-v1.mp3"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Jump Sound",
+      "key": "audio-27",
+      "paths": [
+        "assets/media/sfx-sound-27-candy-v1.ogg",
+        "assets/media/sfx-sound-27-candy-v1.mp3"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Main Theme",
+      "key": "audio-52",
+      "paths": [
+        "assets/media/music-sound-52-candy-v1.ogg",
+        "assets/media/music-sound-52-candy-v1.mp3"
+      ]
+    }
+  ],
+  "collisionPairs": [
+    {
+      "group1": 0,
+      "group2": 0
+    },
+    {
+      "group1": 0,
+      "group2": 1
+    },
+    {
+      "group1": 0,
+      "group2": 3
+    },
+    {
+      "group1": 0,
+      "group2": 4
+    },
+    {
+      "group1": 1,
+      "group2": 3
+    },
+    {
+      "group1": 3,
+      "group2": 3
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clone Rush · La nuova campagna Candy Sky</title>
+<style>
+:root{font:16px/1.5 system-ui,sans-serif;color:#173d71;background:#eef9ff;font-synthesis:none}*{box-sizing:border-box}body{margin:0}header{padding:64px max(24px,calc((100vw - 1240px)/2));background:linear-gradient(135deg,#cff3ff,#fff0fa);border-bottom:1px solid #c9e8f7}h1{font-size:clamp(32px,5vw,60px);line-height:1.06;letter-spacing:-2px;margin:10px 0 20px}h2{font-size:28px;margin:0}h3{margin:0;font-size:20px}p{max-width:760px;margin:10px 0}a{color:#0757bb}.eyebrow{font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.links{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.button,button{background:#1364d8;color:white;border:0;border-radius:12px;padding:11px 17px;font:inherit;font-weight:650;text-decoration:none;cursor:pointer}button.secondary,.button.secondary{background:white;color:#1550a2;border:1px solid #c7def4}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f262b8;outline-offset:4px}main{max-width:1288px;margin:auto;padding:36px 24px 64px}.stats{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:32px}.stat{background:white;border:1px solid #d1e9f5;padding:14px 20px;border-radius:14px}.stat strong{font-size:25px;margin-right:6px}.note{background:#fff;border-left:4px solid #f39bcf;padding:14px 20px;border-radius:4px 14px 14px 4px;margin:24px 0}.stage{margin-top:42px}.stage>p{color:#526b8d;margin:8px 0 20px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:white;border:1px solid #d2e6f3;border-radius:20px;overflow:hidden;box-shadow:0 8px 25px #1967ac08}.card img{display:block;width:100%;aspect-ratio:1.6;object-fit:cover;background:#c6eaff}.card-body{padding:20px}.card-title{display:flex;gap:14px;align-items:center}.number{background:#e6f5ff;color:#075cbf;font-weight:800;border-radius:11px;min-width:43px;text-align:center;padding:7px}.card p{color:#536b8d;min-height:48px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}.tag{font-size:12px;font-weight:700;background:#edf5fb;color:#385e83;border-radius:20px;padding:4px 9px}.card footer{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:13px}.card footer span{color:#358064}.bottom{margin-top:40px;color:#5b7391;font-size:14px}dialog{border:0;border-radius:22px;padding:0;width:min(1160px,94vw);max-height:94vh;background:#f3faff;color:#173d71;box-shadow:0 30px 120px #00172c55}dialog::backdrop{background:#0a284b99;backdrop-filter:blur(5px)}.dialog-header{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 24px;background:white}.dialog-body{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(250px,1fr);gap:22px;padding:24px}.diagram{width:100%;height:auto;background:linear-gradient(#dbf5ff,#fff);border-radius:16px;border:1px solid #c1e0f4}.controls{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}input[type=range]{width:100%;accent-color:#1674d9}select{font:inherit;padding:7px;border:1px solid #c7def4;border-radius:9px}.timer{font-variant-numeric:tabular-nums;margin-left:auto}.legend{font-size:13px;color:#5c7593}.events{padding-left:20px;font-size:14px;max-height:200px;overflow:auto}.events li{margin:7px 0}.preview{width:100%;border-radius:12px;margin-top:14px}.command{background:white;border:1px solid #c7def4;border-radius:12px;padding:12px;margin-top:16px;font-weight:700}details{margin-top:18px}summary{cursor:pointer;font-weight:700}.loading{padding:40px;color:#58748f}.error{color:#a43858} @media(max-width:720px){header{padding:36px 20px}.grid,.dialog-body{grid-template-columns:1fr}main{padding:24px 16px}.stage{margin-top:28px}.dialog-body{padding:16px}.dialog-header{padding:16px}.stat{padding:10px 14px}h1{letter-spacing:-1px}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">Clone Rush · Candy Sky v2</div>
+<h1>32 mappe.<br>Una squadra da guidare.</h1>
+<p>Isole volanti progettate direttamente per Candy Sky. La campagna introduce ogni comportamento, lo mette in relazione con gli altri e arriva a percorsi con chiavi, ritorni e responsabilità diverse.</p>
+<div class="links"><a class="button" href="/">Apri il gioco</a><a class="button secondary" href="./solutions.json">Sequenze risolutive</a><a class="button secondary" href="./phaser-replays.json">Registrazioni Phaser</a></div>
+<p><a href="./runtime-checks.json">Verifica completa delle scene, degli input e delle transizioni</a> · <a href="./viewport-checks.json">Verifica desktop e telefono</a> · <a href="./selection-checks.json">Selettore e vecchi salvataggi</a></p>
+<p><a href="./media/level-18-live.webm">Livello 18: registrazione del gioco normale, dal selettore al livello 19</a></p>
+<p><a href="./screens/level-18-live-contact-detail.png">Dettaglio del contatto nel gioco</a> · <a href="./underside-contact-checks.json">Controlli grafici dell’appoggio</a> · <a href="./README.md">Come ripetere i test</a></p>
+<p><a href="./screens/level-18-gravity-desktop.png">Gravità invertita: presentazione desktop</a> · <a href="./screens/level-18-gravity-phone.png">Presentazione telefono</a> · <a href="./gravity-presentation-checks.json">Verifica degli indicatori e del tutorial</a></p>
+<p><a href="./screens/level-23-desktop-checked.png">Portali sospesi e appoggiati nello stesso livello</a> · <a href="/assets/candy-sky-v1/floating-portals-v1.png">Nuovi anelli generati con imagegen</a> · <a href="/artwork/prompts.json">Prompt e provenienza</a></p>
+</header>
+<main>
+<div id="stats" class="stats"></div>
+<div class="note"><strong>Come leggere i percorsi.</strong> Ogni mappa ha una sequenza che porta tutti i cloni a destinazione nella scena reale di Phaser. I tempi mostrati descrivono quella sequenza: non sono record, tempi obiettivo o una valutazione della difficoltà umana. Il replay è uno schema delle posizioni fisiche; le immagini mostrano il gioco.</div>
+<div id="campaign" class="loading">Caricamento della panoramica…</div>
+<p class="bottom">Geometria nativa: lo stesso elenco di isole alimenta grafica e collisioni. Fonte delle mappe: <a href="/data/levels.json">levels.json</a>. Le registrazioni usano passi di 10 ms e posizioni campionate ogni 100 ms, con transizioni terminali e scrittura dei salvataggi disabilitate soltanto nel browser di osservazione.</p>
+</main>
+<dialog id="viewer" aria-labelledby="viewer-title">
+<div class="dialog-header"><h2 id="viewer-title"></h2><button id="close" class="secondary">Chiudi</button></div>
+<div class="dialog-body"><section>
+<canvas id="diagram" class="diagram" width="1056" height="800" aria-label="Schema animato delle isole e delle posizioni dei cloni"></canvas>
+<input id="scrub" type="range" min="0" max="1" value="0" step="1" aria-label="Posizione nella sequenza">
+<div class="controls"><button id="play">Riproduci</button><button id="restart" class="secondary">Dall’inizio</button><label>Velocità <select id="speed"><option value="0.5">0,5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label><span id="timer" class="timer"></span></div>
+<div id="command" class="command"></div>
+<p class="legend">Bianco: normale · Rosa: invertito · Verde: senza salto · Giallo: scivola · Viola: gravità inversa. Rettangoli: corpi delle isole. Anelli azzurri: portali riutilizzabili; rosa: monouso. Rombi: chiavi; triangoli: sede delle trappole (fase non rappresentata).</p>
+</section><aside><h3>Obiettivo</h3><p id="objective"></p><div id="roles" class="tags"></div><h3>Eventi della sequenza</h3><ol id="events" class="events"></ol><details><summary>Immagine della scena iniziale</summary><img id="preview" class="preview" alt="La mappa nella scena reale del gioco"></details></aside></div>
+</dialog>
+<script type="module">
+const $=id=>document.getElementById(id);
+const roles={3:['Normale','#f5fcff'],17:['Invertito','#fa87bd'],19:['Senza salto','#8edc96'],25:['Scivola','#ffda67'],35:['Gravità inversa','#b88efa']};
+const groups=[
+ {title:'1–4 · Le basi condivise',text:'Movimento, salto, percorsi a quote diverse e primo portale monouso.',start:1,end:4},
+ {title:'5–8 · Il controllo invertito',text:'Prima separare i percorsi, poi cambiare direzione e assegnare le uscite. Compare la prima trappola.',start:5,end:8},
+ {title:'9–12 · Le molle',text:'Il clone verde cammina: per salire deve raggiungere una molla. Il resto della squadra si adatta.',start:9,end:12},
+ {title:'13–16 · Movimento persistente',text:'Rilasciare il comando ferma il bianco e il rosa, ma il giallo continua. Le uscite diventano decisioni di squadra.',start:13,end:16},
+ {title:'17–20 · Chiavi e gravità',text:'Le chiavi sbloccano tutti i portali blu. Il viola salta verso il basso e cammina sotto le isole.',start:17,end:20},
+ {title:'21–24 · La squadra completa',text:'Combinazioni delle regole conosciute: raccogliere, uscire nell’ordine giusto e tornare con i superstiti.',start:21,end:24},
+ {title:'25–28 · Nuovi incroci',text:'Chiavi, molle e percorsi sul soffitto richiedono di separare la squadra e farla tornare.',start:25,end:28},
+ {title:'29–32 · La convergenza',text:'Trappole, inversioni e tutte e cinque le abilità si intrecciano nelle ultime consegne.',start:29,end:32}
+];
+const objectives=[
+'Accompagna due cloni allo stesso portale riutilizzabile.',
+'Supera il primo vuoto con un salto condiviso. Sotto c’è un’isola di recupero.',
+'Guida due percorsi paralleli, salendo su isole a quote diverse.',
+'Assegna le uscite su due quote: il portale rosa accoglie un solo clone.',
+'Impara il controllo invertito su un’isola ampia, senza pericoli.',
+'Sali verso l’esterno, poi inverti il comando per raggiungere la sommità centrale.',
+'Adatta il salto a due altezze diverse e conserva un’uscita per ciascuno.',
+'Affronta una trappola sul percorso conosciuto: osserva la fase oppure saltala.',
+'Il bianco salta; il verde raggiunge la sua uscita camminando.',
+'Porta il verde sulle molle e guidalo fino all’isola di arrivo.',
+'Il bianco può saltare, il verde usa le molle. Distribuisci le due uscite.',
+'Separa il verde e il rosa sulle molle opposte e accompagnali alle rispettive uscite.',
+'Il giallo continua a muoversi quando rilasci il comando: anticipa il suo salto.',
+'Coordina il percorso del bianco con il movimento continuo del giallo.',
+'Rilascia per frenare il rosa mentre il giallo raggiunge la sua uscita. Poi cambia verso.',
+'Assegna tre destinazioni. Dopo le prime uscite, riporta indietro il giallo rimasto.',
+'Raggiungi la chiave a destra, poi torna al portale blu a sinistra.',
+'Impara la gravità inversa su un’isola continua: salta verso il basso per prendere la chiave, poi torna sotto l’isola. Puoi riprovare senza perdere l’appoggio.',
+'Guida il bianco sopra le isole e il viola sotto, con lo stesso salto.',
+'Il rosa raccoglie la chiave sul percorso inferiore. Poi entrambi devono tornare.',
+'Combina gravità, scivolamento e molle. Il viola raccoglie la chiave per tutta la squadra.',
+'Affida due chiavi a cloni diversi e fai tornare il giallo dopo le altre uscite.',
+'Un viola esce prima: quello rimasto deve raccogliere le chiavi lontane e tornare al portale blu.',
+'Coordina quattro cloni, due chiavi, percorsi su più quote e trappole. Le uscite richiedono il ritorno.',
+'Raccogli due chiavi su percorsi distinti, poi porta a casa tutti e tre i cloni.',
+'Usa entrambe le molle mentre il bianco recupera la chiave in alto.',
+'Raccogli le chiavi sulle isole lontane e inverti il cammino dei due cloni.',
+'Un corriere sul soffitto esce per primo; l’altro torna con tutte le chiavi.',
+'Consegna tre chiavi prima di riportare il clone scivoloso oltre la trappola.',
+'Lancia il verde alla sua uscita, poi inverti i percorsi sul soffitto e del rosa.',
+'Quattro ruoli raccolgono le chiavi da lati opposti prima del ritorno.',
+'Coordina tutti e cinque i talenti, raccogli ogni chiave e conserva l’ultima via di ritorno.'
+];
+let data,replays,selected,clock=0,playing=false,last=0;
+try{
+ [data,replays]=await Promise.all(['/data/levels.json','./phaser-replays.json'].map(async name=>{const response=await fetch(name);if(!response.ok)throw Error(name);return response.json();}));
+ const complete=replays.levels.filter(l=>l.status==='complete').length;
+ $('stats').innerHTML=`<div class="stat"><strong>${data.levels.length}</strong> livelli</div><div class="stat"><strong>1</strong> epilogo giocabile</div><div class="stat"><strong>${data.levels.reduce((n,l)=>n+l.platforms.length,0)}</strong> isole</div><div class="stat"><strong>${complete}/${data.levels.length+1}</strong> sequenze completate</div>`;
+ $('campaign').className='';
+ $('campaign').innerHTML=groups.map(g=>`<section class="stage"><h2>${g.title}</h2><p>${g.text}</p><div class="grid">${data.levels.filter(l=>l.number>=g.start&&l.number<=g.end).map(card).join('')}</div></section>`).join('')+`<section class="stage"><h2>Epilogo · Insieme, finalmente</h2><p>Il ricongiungimento della squadra, senza introdurre nuove regole.</p><div class="grid">${card({...data.ending,number:0})}</div></section>`;
+ $('campaign').addEventListener('click',e=>{const b=e.target.closest('[data-level]');if(b)open(Number(b.dataset.level));});
+}catch(e){$('campaign').className='loading error';$('campaign').textContent=`Impossibile caricare la panoramica: ${e.message}`;}
+function card(l){const r=replays.levels.find(r=>r.number===l.number),types=[...new Set(l.actors.filter(a=>roles[a.type]).map(a=>a.type))];return `<article class="card"><img src="./${r.screen}" loading="lazy" alt="Scena iniziale: ${l.name}"><div class="card-body"><div class="card-title"><span class="number">${l.number||'★'}</span><h3>${l.name}</h3></div><p>${objectives[l.number-1]||'Riporta a casa il gruppo con un ultimo percorso condiviso.'}</p><div class="tags">${types.map(t=>`<span class="tag">${roles[t][0]}</span>`).join('')}<span class="tag">${l.actors.filter(a=>roles[a.type]).length} cloni</span>${l.actors.some(a=>a.type===32)?`<span class="tag">${l.actors.filter(a=>a.type===32).length} chiavi</span>`:''}</div><footer><button data-level="${l.number}">Esplora il percorso</button><span>${r.status==='complete'?'Tutti a destinazione':'Sequenza incompleta'}</span></footer></div></article>`;}
+function open(number){const level=number===0?data.ending:data.levels.find(l=>l.number===number),replay=replays.levels.find(l=>l.number===number);selected={level,replay,clones:level.actors.filter(a=>roles[a.type])};clock=0;playing=false;$('play').textContent='Riproduci';$('viewer-title').textContent=`${number||'Epilogo'} · ${level.name}`;$('objective').textContent=objectives[number-1]||'Riporta a casa il gruppo con un ultimo percorso condiviso.';$('roles').innerHTML=selected.clones.map((a,i)=>`<span class="tag">${i+1}: ${roles[a.type][0]}</span>`).join('');$('events').innerHTML=replay.events.map(e=>`<li>${(e.step/100).toFixed(2)} s · ${e.event==='key'?'Chiave raccolta':`Clone ${e.clone+1} nel portale`}</li>`).join('');$('preview').src=`./${replay.screen}`;$('scrub').max=replay.step;$('scrub').value=0;$('viewer').showModal();draw();}
+$('close').onclick=()=>{$('viewer').close();playing=false;};$('viewer').addEventListener('close',()=>{playing=false;});$('viewer').addEventListener('click',e=>{if(e.target===$('viewer')){$('viewer').close();playing=false;}});
+$('play').onclick=()=>{if(clock>=selected.replay.step)clock=0;playing=!playing;$('play').textContent=playing?'Pausa':'Riproduci';};$('restart').onclick=()=>{clock=0;draw();};$('scrub').oninput=e=>{clock=Number(e.target.value);draw();};
+function draw(){if(!selected)return;const {level,replay,clones}=selected,ctx=$('diagram').getContext('2d');ctx.clearRect(0,0,1056,800);ctx.save();ctx.scale(2,2);ctx.translate(24,30);
+ ctx.strokeStyle='#b5d9ee';ctx.lineWidth=.5;for(let x=0;x<=480;x+=20){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,340);ctx.stroke();}for(let y=0;y<=340;y+=20){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(480,y);ctx.stroke();}
+ for(const p of level.platforms){ctx.fillStyle='#81d28d';ctx.fillRect(p.x,p.y,p.width,p.height);ctx.fillStyle='#f7a0ce';ctx.fillRect(p.x,p.y,p.width,4);ctx.strokeStyle='#498565';ctx.lineWidth=.8;ctx.strokeRect(p.x,p.y,p.width,p.height);}
+ const observed=replay.events.filter(e=>e.step<=clock),keyEvents=observed.filter(e=>e.event==='key'),allKeys=level.actors.filter(a=>a.type===32).length;
+ for(const a of level.actors){const x=a.x+(a.type===5||a.type===15?20:10),y=a.y+(a.type===5||a.type===15?20:10);if(a.type===5||a.type===15){const used=a.type===15&&observed.some(e=>e.event==='exit'&&e.portal===a.instance);ctx.globalAlpha=used?.15:a.type===5&&keyEvents.length<allKeys?.4:1;ctx.strokeStyle=a.type===15?'#dc48c5':'#087cda';ctx.lineWidth=4;ctx.beginPath();ctx.ellipse(x,y,13,18,0,0,Math.PI*2);ctx.stroke();ctx.globalAlpha=1;}else if(a.type===32&&!keyEvents.some(e=>e.id===a.instance)){ctx.fillStyle='#e8b331';ctx.beginPath();ctx.moveTo(x,y-7);ctx.lineTo(x+6,y);ctx.lineTo(x,y+7);ctx.lineTo(x-6,y);ctx.closePath();ctx.fill();}else if(a.type===23){ctx.fillStyle='#b472e5';ctx.fillRect(a.x,a.y,20,20);ctx.fillStyle='white';ctx.font='bold 16px system-ui';ctx.fillText('↑',a.x+3,a.y+16);}else if([9,11,13].includes(a.type)){ctx.fillStyle='#828fae';ctx.beginPath();ctx.moveTo(a.x,a.y+20);ctx.lineTo(a.x+10,a.y+3);ctx.lineTo(a.x+20,a.y+20);ctx.closePath();ctx.fill();}}
+ const initial={step:0,clones:clones.map(a=>({x:a.x+10,y:a.y+10,state:'playing'}))},frames=[initial,...replay.frames];let before=frames[0],after=frames.at(-1);for(const f of frames){if(f.step<=clock)before=f;if(f.step>=clock){after=f;break;}}const t=after.step===before.step?0:(clock-before.step)/(after.step-before.step);
+ clones.forEach((a,i)=>{if(observed.some(e=>e.event==='exit'&&e.clone===i))return;const b=before.clones[i],c=after.clones[i],x=b.x+(c.x-b.x)*t,y=b.y+(c.y-b.y)*t;ctx.fillStyle=roles[a.type][1];ctx.strokeStyle='#34577a';ctx.lineWidth=1;ctx.beginPath();ctx.roundRect(x-9.5,y-9.5,19,19,4);ctx.fill();ctx.stroke();ctx.fillStyle='#173d71';ctx.font='bold 11px system-ui';ctx.textAlign='center';ctx.fillText(i+1,x,y+4);});ctx.restore();
+ let cursor=0,active=replay.actions.at(-1);for(const action of replay.actions){if(clock<cursor+action[1]){active=action;break;}cursor+=action[1];}$('command').textContent=`Comando: ${active[0]===1?'→ destra':active[0]===-1?'← sinistra':'rilascia'}${active[2]&&clock-cursor<10?' + salto':''} · Chiavi ${keyEvents.length}/${allKeys}`;$('timer').textContent=`${(clock/100).toFixed(2)} / ${(replay.step/100).toFixed(2)} s`;$('scrub').value=clock;
+}
+function animate(time){const dt=Math.min(100,time-last);last=time;if(playing&&selected){clock=Math.min(selected.replay.step,clock+dt/10*Number($('speed').value));if(clock>=selected.replay.step){playing=false;$('play').textContent='Riproduci';}draw();}requestAnimationFrame(animate);}requestAnimationFrame(animate);
+</script>
+</body>
+</html>

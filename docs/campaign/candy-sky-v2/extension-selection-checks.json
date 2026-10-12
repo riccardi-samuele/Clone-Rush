@@ -1,0 +1,760 @@
+{
+  "recordedAt": "2026-10-12T14:55:27.454Z",
+  "method": "Real Phaser UI with isolated completed-24 save; mouse/touch pagination, keyboard crossing, level entry and pause return.",
+  "cases": [
+    {
+      "name": "desktop",
+      "first": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 107.17703349282297,
+          "height": 99.52153110047847
+        },
+        "next": {
+          "width": 107.17703349282297,
+          "height": 99.52153110047847
+        },
+        "label": "PAGE 2 / 2"
+      },
+      "previous": {
+        "page": 0,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "interactive": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "current": 1,
+        "count": 32,
+        "prev": {
+          "width": 107.17703349282297,
+          "height": 99.52153110047847
+        },
+        "next": {
+          "width": 107.17703349282297,
+          "height": 99.52153110047847
+        },
+        "label": "PAGE 1 / 2"
+      },
+      "next": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 107.17703349282297,
+          "height": 99.52153110047847
+        },
+        "next": {
+          "width": 107.17703349282297,
+          "height": 99.52153110047847
+        },
+        "label": "PAGE 2 / 2"
+      },
+      "entered": {
+        "number": 25,
+        "playing": "playing",
+        "save": {
+          "version": 1,
+          "campaignVersion": 2,
+          "unlockedThrough": 1,
+          "completed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "current": 25,
+          "soundVolume": 35,
+          "musicVolume": 20
+        }
+      },
+      "returned": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 107.17703349282297,
+          "height": 99.52153110047847
+        },
+        "next": {
+          "width": 107.17703349282297,
+          "height": 99.52153110047847
+        },
+        "label": "PAGE 2 / 2"
+      }
+    },
+    {
+      "name": "phone",
+      "first": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 60.66666666666667,
+          "height": 56.333333333333336
+        },
+        "next": {
+          "width": 60.66666666666667,
+          "height": 56.333333333333336
+        },
+        "label": "PAGE 2 / 2"
+      },
+      "previous": {
+        "page": 0,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "interactive": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "current": 1,
+        "count": 32,
+        "prev": {
+          "width": 60.66666666666667,
+          "height": 56.333333333333336
+        },
+        "next": {
+          "width": 60.66666666666667,
+          "height": 56.333333333333336
+        },
+        "label": "PAGE 1 / 2"
+      },
+      "next": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 60.66666666666667,
+          "height": 56.333333333333336
+        },
+        "next": {
+          "width": 60.66666666666667,
+          "height": 56.333333333333336
+        },
+        "label": "PAGE 2 / 2"
+      },
+      "entered": {
+        "number": 25,
+        "playing": "playing",
+        "save": {
+          "version": 1,
+          "campaignVersion": 2,
+          "unlockedThrough": 1,
+          "completed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "current": 25,
+          "soundVolume": 35,
+          "musicVolume": 20
+        }
+      },
+      "returned": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 60.66666666666667,
+          "height": 56.333333333333336
+        },
+        "next": {
+          "width": 60.66666666666667,
+          "height": 56.333333333333336
+        },
+        "label": "PAGE 2 / 2"
+      }
+    },
+    {
+      "name": "compact-phone",
+      "first": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 45.352112676056336,
+          "height": 43.99999999999999
+        },
+        "next": {
+          "width": 45.352112676056336,
+          "height": 43.99999999999999
+        },
+        "label": "PAGE 2 / 2"
+      },
+      "previous": {
+        "page": 0,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "interactive": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "current": 1,
+        "count": 32,
+        "prev": {
+          "width": 45.352112676056336,
+          "height": 43.99999999999999
+        },
+        "next": {
+          "width": 45.352112676056336,
+          "height": 43.99999999999999
+        },
+        "label": "PAGE 1 / 2"
+      },
+      "next": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 45.352112676056336,
+          "height": 43.99999999999999
+        },
+        "next": {
+          "width": 45.352112676056336,
+          "height": 43.99999999999999
+        },
+        "label": "PAGE 2 / 2"
+      },
+      "entered": {
+        "number": 25,
+        "playing": "playing",
+        "save": {
+          "version": 1,
+          "campaignVersion": 2,
+          "unlockedThrough": 1,
+          "completed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "current": 25,
+          "soundVolume": 35,
+          "musicVolume": 20
+        }
+      },
+      "returned": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 45.352112676056336,
+          "height": 43.99999999999999
+        },
+        "next": {
+          "width": 45.352112676056336,
+          "height": 43.99999999999999
+        },
+        "label": "PAGE 2 / 2"
+      }
+    },
+    {
+      "name": "landscape-phone",
+      "first": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 58.02337938363443,
+          "height": 53.8788522848034
+        },
+        "next": {
+          "width": 58.02337938363443,
+          "height": 53.8788522848034
+        },
+        "label": "PAGE 2 / 2"
+      },
+      "previous": {
+        "page": 0,
+        "visible": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "interactive": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "current": 1,
+        "count": 32,
+        "prev": {
+          "width": 58.02337938363443,
+          "height": 53.8788522848034
+        },
+        "next": {
+          "width": 58.02337938363443,
+          "height": 53.8788522848034
+        },
+        "label": "PAGE 1 / 2"
+      },
+      "next": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 58.02337938363443,
+          "height": 53.8788522848034
+        },
+        "next": {
+          "width": 58.02337938363443,
+          "height": 53.8788522848034
+        },
+        "label": "PAGE 2 / 2"
+      },
+      "entered": {
+        "number": 25,
+        "playing": "playing",
+        "save": {
+          "version": 1,
+          "campaignVersion": 2,
+          "unlockedThrough": 1,
+          "completed": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "current": 25,
+          "soundVolume": 35,
+          "musicVolume": 20
+        }
+      },
+      "returned": {
+        "page": 1,
+        "visible": [
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "interactive": [
+          25
+        ],
+        "current": 25,
+        "count": 32,
+        "prev": {
+          "width": 58.02337938363443,
+          "height": 53.8788522848034
+        },
+        "next": {
+          "width": 58.02337938363443,
+          "height": 53.8788522848034
+        },
+        "label": "PAGE 2 / 2"
+      }
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

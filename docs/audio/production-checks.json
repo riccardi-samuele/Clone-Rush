@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-12T14:05:31.446Z",
+  "method": "Compiled bundle, real keyboard input, runtime audio network responses; comparison page real media playback.",
+  "errors": [],
+  "failedResponses": [],
+  "audio": [
+    {
+      "url": "http://127.0.0.1:18767/assets/media/sfx-sound-30-candy-v1.ogg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:18767/assets/media/sfx-sound-29-candy-v1.ogg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:18767/assets/media/music-sound-52-candy-v1.ogg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:18767/assets/media/sfx-sound-27-candy-v1.ogg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:18767/assets/media/sfx-sound-28-candy-v1.ogg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:18767/assets/media/sfx-sound-34-candy-v1.ogg",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5175/assets/media/sfx-sound-27-candy-v1.ogg",
+      "status": 206
+    }
+  ],
+  "preview": {
+    "playing": true,
+    "error": null,
+    "duration": 0.322902
+  },
+  "completed": true
+}

@@ -1,0 +1,3719 @@
+{
+  "campaign": {
+    "id": "candy-sky-v2",
+    "version": 2,
+    "name": "Candy Sky",
+    "levelCount": 32
+  },
+  "levels": [
+    {
+      "id": 1,
+      "number": 1,
+      "name": "First Together",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Move the pair to a shared exit.",
+      "tutorial": "MOVE TOGETHER\nGuide every clone into a blue portal.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 280,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 70,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 125,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "name": "A Little Leap",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "One shared jump across a broad gap.",
+      "tutorial": "ONE JUMP, TWO CLONES\nBlue portals can be used again.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 280,
+          "width": 170,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 245,
+          "y": 280,
+          "width": 205,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 100,
+          "y": 320,
+          "width": 280,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 70,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 110,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "name": "Different Heights",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Jump on parallel routes at different heights.",
+      "tutorial": "SAME BUTTONS, DIFFERENT PATHS\nKeep both clones on their islands.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 180,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 140,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 260,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 160,
+          "y": 320,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 70,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 70,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "name": "One Use Only",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Assign the upper and lower exits.",
+      "tutorial": "PINK PORTALS ARE SINGLE USE\nOne clone per pink portal.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 180,
+          "width": 140,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 220,
+          "y": 220,
+          "width": 220,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 300,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 160,
+          "y": 320,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 70,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 70,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 15,
+          "x": 385,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 385,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "name": "Mirror Meadow",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Learn the reverse clone without hazards.",
+      "tutorial": "PINK CLONES MOVE IN REVERSE\nOne command guides both sides.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 280,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 270,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 190,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "name": "Mirror Steps",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Climb outward, then reverse onto the central summit.",
+      "tutorial": "MIRROR STEPS\nGo outward, then turn back toward the summit.",
+      "platforms": [
+        {
+          "x": 190,
+          "y": 300,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 50,
+          "y": 260,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 330,
+          "y": 260,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 150,
+          "y": 200,
+          "width": 180,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 320,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 250,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 210,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 270,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 170,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "name": "Split Decision",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Different heights and single-use assignment.",
+      "tutorial": "CHOOSE EACH EXIT\nThe other clone still needs a route.",
+      "platforms": [
+        {
+          "x": 190,
+          "y": 300,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 50,
+          "y": 260,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 330,
+          "y": 250,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 150,
+          "y": 200,
+          "width": 180,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 320,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 250,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 210,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 15,
+          "x": 270,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 170,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "number": 8,
+      "name": "Sweet Timing",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Introduce one trap with a safe approach.",
+      "tutorial": "WATCH THE SPIKE\nCross while it is hidden, or jump over it.",
+      "platforms": [
+        {
+          "x": 190,
+          "y": 300,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 50,
+          "y": 260,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 330,
+          "y": 260,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 150,
+          "y": 200,
+          "width": 180,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 320,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 250,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 210,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 270,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 170,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 9,
+          "x": 310,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "number": 9,
+      "name": "Grounded Friend",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "N jumps while J uses a flat route.",
+      "tutorial": "GREEN CLONES CANNOT JUMP\nGive the green clone a walking route.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 180,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 260,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 150,
+          "y": 320,
+          "width": 180,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 19,
+          "x": 70,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 70,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 15,
+          "x": 395,
+          "y": 140,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "number": 10,
+      "name": "First Spring",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "A no-jump clone uses two flush springs.",
+      "tutorial": "SPRINGS LAUNCH GREEN CLONES\nWalk onto a spring, then steer in the air.",
+      "platforms": [
+        {
+          "x": 20,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 160,
+          "y": 300,
+          "width": 190,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 370,
+          "y": 300,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 210,
+          "y": 240,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 390,
+          "y": 240,
+          "width": 80,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 19,
+          "x": 65,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 23,
+          "x": 140,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 23,
+          "x": 350,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 400,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "number": 11,
+      "name": "Spring Partners",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "N and J share a spring route.",
+      "tutorial": "TWO WAYS TO LEAP\nGreen uses springs; white can also jump.",
+      "platforms": [
+        {
+          "x": 20,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 160,
+          "y": 300,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 340,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 200,
+          "y": 240,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 370,
+          "y": 240,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 19,
+          "x": 60,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 100,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 23,
+          "x": 140,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 23,
+          "x": 320,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 5,
+          "x": 400,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 15,
+          "x": 220,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "name": "Mirror Springs",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Reverse and no-jump use opposite springs.",
+      "tutorial": "SPRINGS IN THE MIRROR\nSteer the pink and green clones apart.",
+      "platforms": [
+        {
+          "x": 20,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 160,
+          "y": 300,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 340,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 240,
+          "width": 110,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 340,
+          "y": 240,
+          "width": 110,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 19,
+          "x": 270,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 190,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 23,
+          "x": 140,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 23,
+          "x": 320,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 5,
+          "x": 390,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 15,
+          "x": 45,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "name": "Keep Sliding",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Learn persistent motion on a broad route.",
+      "tutorial": "YELLOW CLONES KEEP MOVING\nUse the opposite direction to turn around.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 300,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 260,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 140,
+          "y": 320,
+          "width": 200,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 25,
+          "x": 65,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "name": "Two Rhythms",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "S moves while N can brake.",
+      "tutorial": "TWO RHYTHMS\nWhite brakes when you release. Yellow keeps going.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 180,
+          "width": 140,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 220,
+          "y": 140,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 360,
+          "y": 140,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 260,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 150,
+          "y": 320,
+          "width": 180,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 70,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 25,
+          "x": 70,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 15,
+          "x": 395,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "name": "Sliding Mirror",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "S and R climb outward in opposite directions.",
+      "tutorial": "SLIDE AND REVERSE\nRelease to brake pink while yellow keeps going.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 180,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 200,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 280,
+          "y": 260,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 150,
+          "y": 320,
+          "width": 180,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 25,
+          "x": 65,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 210,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 15,
+          "x": 395,
+          "y": 140,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "name": "Three Destinations",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Two sliding clones consume separate exits.",
+      "tutorial": "THREE DESTINATIONS\nReserve one pink exit for each yellow clone.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 200,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 200,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 300,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 90,
+          "y": 80,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 25,
+          "x": 100,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 25,
+          "x": 100,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 60,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 15,
+          "x": 45,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 15,
+          "x": 395,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "name": "The Shared Key",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Collect a key before returning to a blue exit.",
+      "tutorial": "ONE KEY, ALL BLUE PORTALS\nCollect the golden key before entering.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 300,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 260,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 320,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 65,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 110,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 32,
+          "x": 320,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "name": "Under the Clouds",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Learn reversed gravity and collect a key on a forgiving ceiling route.",
+      "tutorial": "PURPLE CLONES FALL UP\nJump down for the key, then return to the island underside.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": true
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 70,
+          "y": 119,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 32,
+          "x": 245,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "name": "Above and Below",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "N and G travel on opposite island faces.",
+      "tutorial": "ABOVE AND BELOW\nThe same jump sends purple downward.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 200,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 230,
+          "y": 240,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": true
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 70,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 35,
+          "x": 125,
+          "y": 219,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "name": "Reverse Gravity",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "R and G cross mirrored gaps and collect a key.",
+      "tutorial": "REVERSE GRAVITY\nCollect the key on the lower route.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 230,
+          "y": 140,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 290,
+          "y": 300,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 260,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 180,
+          "y": 320,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 100,
+          "y": 119,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 360,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 32,
+          "x": 105,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "name": "Three Talents",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Combine a spring, persistent movement and gravity.",
+      "tutorial": "THREE TALENTS\nSprings, sliding and gravity share your controls.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 30,
+          "y": 180,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 20,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 160,
+          "y": 300,
+          "width": 190,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 370,
+          "y": 300,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 220,
+          "y": 260,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 370,
+          "y": 260,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 65,
+          "y": 59,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 25,
+          "x": 65,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 19,
+          "x": 65,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 23,
+          "x": 140,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 23,
+          "x": 350,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 32,
+          "x": 240,
+          "y": 70,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 5,
+          "x": 400,
+          "y": 60,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 15,
+          "x": 400,
+          "y": 140,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 5,
+          "x": 400,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "name": "Keys and Choices",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Separate three roles and collect both keys.",
+      "tutorial": "KEYS AND CHOICES\nPink exits stay open. Blue needs every key.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 140,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 170,
+          "y": 300,
+          "width": 140,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 260,
+          "width": 110,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 330,
+          "y": 260,
+          "width": 110,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 320,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 25,
+          "x": 100,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 270,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 17,
+          "x": 190,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 32,
+          "x": 240,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 32,
+          "x": 105,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 15,
+          "x": 45,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "name": "The Last Collector",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Leave the remaining G a complete key route.",
+      "tutorial": "THE LAST COLLECTOR\nWhoever stays must collect every remaining key.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 80,
+          "width": 210,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 290,
+          "y": 120,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 70,
+          "y": 99,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 35,
+          "x": 120,
+          "y": 99,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 3,
+          "x": 70,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 32,
+          "x": 150,
+          "y": 110,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 32,
+          "x": 200,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 32,
+          "x": 310,
+          "y": 150,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 32,
+          "x": 395,
+          "y": 150,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 15,
+          "x": 200,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 15,
+          "x": 395,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 10,
+          "order": 9
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "name": "Candy Sky Symphony",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Coordinate four clones through two keys and timed routes.",
+      "tutorial": "CANDY SKY SYMPHONY\nKeep a path for every clone that remains.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 140,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 210,
+          "y": 80,
+          "width": 240,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 30,
+          "y": 180,
+          "width": 140,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 210,
+          "y": 180,
+          "width": 240,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 300,
+          "width": 140,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 210,
+          "y": 260,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 350,
+          "y": 260,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 150,
+          "y": 320,
+          "width": 220,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 90,
+          "y": 59,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 25,
+          "x": 130,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 3,
+          "x": 80,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 3,
+          "x": 110,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 32,
+          "x": 280,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 32,
+          "x": 350,
+          "y": 110,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 60,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 140,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        },
+        {
+          "type": 9,
+          "x": 300,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 10,
+          "order": 9
+        },
+        {
+          "type": 9,
+          "x": 340,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 11,
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "name": "Mirror Relay",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Collect two keys, then bring the three routes home.",
+      "tutorial": "MIRROR RELAY\nCollect on the outward trip. Return together.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 120,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 180,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 260,
+          "width": 125,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 315,
+          "y": 250,
+          "width": 125,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 320,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 25,
+          "x": 110,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 3,
+          "x": 275,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 17,
+          "x": 185,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 32,
+          "x": 255,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 32,
+          "x": 105,
+          "y": 240,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 15,
+          "x": 45,
+          "y": 80,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 210,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "number": 26,
+      "name": "Spring Orchard",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Use the spring pair while white collects the high key.",
+      "tutorial": "SPRING ORCHARD\nGreen rides the springs. White takes the high route.",
+      "platforms": [
+        {
+          "x": 20,
+          "y": 160,
+          "width": 130,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 190,
+          "y": 120,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 350,
+          "y": 160,
+          "width": 110,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 20,
+          "y": 300,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 200,
+          "y": 300,
+          "width": 140,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 360,
+          "y": 300,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 370,
+          "y": 240,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 65,
+          "y": 140,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 19,
+          "x": 50,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 19,
+          "x": 90,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 23,
+          "x": 180,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 23,
+          "x": 340,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 32,
+          "x": 265,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 32,
+          "x": 390,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 15,
+          "x": 395,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 5,
+          "x": 400,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "number": 27,
+      "name": "Sliding Switchback",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Collect on the far islands, then reverse the two routes.",
+      "tutorial": "SLIDING SWITCHBACK\nYellow keeps moving while white brakes.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 150,
+          "width": 135,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 205,
+          "y": 110,
+          "width": 100,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 345,
+          "y": 150,
+          "width": 105,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 300,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 3,
+          "x": 65,
+          "y": 130,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 25,
+          "x": 100,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 32,
+          "x": 265,
+          "y": 90,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 32,
+          "x": 280,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 110,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 15,
+          "x": 45,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "number": 28,
+      "name": "Ceiling Couriers",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "One ceiling courier exits early; the other must return with every key.",
+      "tutorial": "CEILING COURIERS\nLeave a courier for the return trip.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 50,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 220,
+          "y": 90,
+          "width": 230,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 70,
+          "y": 69,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 35,
+          "x": 95,
+          "y": 69,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 17,
+          "x": 400,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 32,
+          "x": 105,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 32,
+          "x": 350,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 32,
+          "x": 410,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 15,
+          "x": 390,
+          "y": 110,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 70,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "number": 29,
+      "name": "Three-Way Delivery",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Deliver three keys before the sliding clone returns through the trap.",
+      "tutorial": "THREE-WAY DELIVERY\nFinish each delivery before the last return.",
+      "platforms": [
+        {
+          "x": 40,
+          "y": 140,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 220,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 250,
+          "y": 220,
+          "width": 190,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 40,
+          "y": 300,
+          "width": 400,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 17,
+          "x": 360,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 25,
+          "x": 75,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 3,
+          "x": 70,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 32,
+          "x": 220,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 32,
+          "x": 350,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 32,
+          "x": 360,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 15,
+          "x": 45,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 15,
+          "x": 395,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        },
+        {
+          "type": 9,
+          "x": 310,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 10,
+          "order": 9
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "number": 30,
+      "name": "Crosswind Springs",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Launch green to its exit, then reverse the ceiling and mirror routes.",
+      "tutorial": "CROSSWIND SPRINGS\nGreen leaves first. The others still need their return routes.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 30,
+          "y": 180,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 20,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 160,
+          "y": 300,
+          "width": 190,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 370,
+          "y": 300,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 220,
+          "y": 260,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 370,
+          "y": 260,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 65,
+          "y": 59,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 380,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 19,
+          "x": 65,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 23,
+          "x": 140,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 23,
+          "x": 350,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 32,
+          "x": 410,
+          "y": 70,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 32,
+          "x": 100,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 32,
+          "x": 375,
+          "y": 215,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 60,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 140,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 10,
+          "order": 9
+        },
+        {
+          "type": 15,
+          "x": 400,
+          "y": 220,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 11,
+          "order": 10
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "number": 31,
+      "name": "Four-Way Rhythm",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Four roles collect on opposite sides before reversing for home.",
+      "tutorial": "FOUR-WAY RHYTHM\nCollect on every route, then choose the right moment to turn.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 30,
+          "y": 120,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 200,
+          "width": 150,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 220,
+          "y": 200,
+          "width": 230,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 300,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 70,
+          "y": 59,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 360,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 25,
+          "x": 70,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 3,
+          "x": 70,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 32,
+          "x": 370,
+          "y": 70,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 32,
+          "x": 80,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 32,
+          "x": 350,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 32,
+          "x": 378,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 60,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        },
+        {
+          "type": 5,
+          "x": 395,
+          "y": 80,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 10,
+          "order": 9
+        },
+        {
+          "type": 15,
+          "x": 400,
+          "y": 160,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 11,
+          "order": 10
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 12,
+          "order": 11
+        },
+        {
+          "type": 9,
+          "x": 300,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 13,
+          "order": 12
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "number": 32,
+      "name": "Cloud Convergence",
+      "width": 480,
+      "height": 340,
+      "gravity": {
+        "x": 0,
+        "y": 100
+      },
+      "mapVersion": 2,
+      "objective": "Coordinate all five talents, collect every key and preserve the last route.",
+      "tutorial": "CLOUD CONVERGENCE\nFive talents. Every key. Keep a route for whoever remains.",
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": true
+        },
+        {
+          "x": 30,
+          "y": 140,
+          "width": 420,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 30,
+          "y": 220,
+          "width": 160,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 230,
+          "y": 220,
+          "width": 220,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 20,
+          "y": 300,
+          "width": 120,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 160,
+          "y": 300,
+          "width": 190,
+          "height": 20,
+          "undersideSupport": false
+        },
+        {
+          "x": 370,
+          "y": 300,
+          "width": 90,
+          "height": 20,
+          "undersideSupport": false
+        }
+      ],
+      "actors": [
+        {
+          "type": 35,
+          "x": 70,
+          "y": 59,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 1,
+          "order": 0
+        },
+        {
+          "type": 17,
+          "x": 360,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 2,
+          "order": 1
+        },
+        {
+          "type": 25,
+          "x": 70,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 3,
+          "order": 2
+        },
+        {
+          "type": 3,
+          "x": 50,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 4,
+          "order": 3
+        },
+        {
+          "type": 19,
+          "x": 90,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 5,
+          "order": 4
+        },
+        {
+          "type": 23,
+          "x": 140,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 6,
+          "order": 5
+        },
+        {
+          "type": 23,
+          "x": 350,
+          "y": 300,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 7,
+          "order": 6
+        },
+        {
+          "type": 32,
+          "x": 365,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 8,
+          "order": 7
+        },
+        {
+          "type": 32,
+          "x": 300,
+          "y": 120,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 9,
+          "order": 8
+        },
+        {
+          "type": 32,
+          "x": 350,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 10,
+          "order": 9
+        },
+        {
+          "type": 32,
+          "x": 390,
+          "y": 280,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 11,
+          "order": 10
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 60,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 12,
+          "order": 11
+        },
+        {
+          "type": 15,
+          "x": 45,
+          "y": 100,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 13,
+          "order": 12
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 180,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 14,
+          "order": 13
+        },
+        {
+          "type": 15,
+          "x": 400,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 15,
+          "order": 14
+        },
+        {
+          "type": 5,
+          "x": 45,
+          "y": 260,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 16,
+          "order": 15
+        },
+        {
+          "type": 9,
+          "x": 310,
+          "y": 200,
+          "angle": 0,
+          "scaleX": 1,
+          "scaleY": 1,
+          "instance": 17,
+          "order": 16
+        }
+      ]
+    }
+  ],
+  "ending": {
+    "id": 28,
+    "number": null,
+    "name": "Together at Last",
+    "width": 480,
+    "height": 340,
+    "gravity": {
+      "x": 0,
+      "y": 100
+    },
+    "mapVersion": 2,
+    "objective": "Bring the team home.",
+    "tutorial": "",
+    "platforms": [
+      {
+        "x": 40,
+        "y": 100,
+        "width": 400,
+        "height": 20,
+        "undersideSupport": true
+      },
+      {
+        "x": 40,
+        "y": 280,
+        "width": 400,
+        "height": 20,
+        "undersideSupport": false
+      }
+    ],
+    "actors": [
+      {
+        "type": 35,
+        "x": 70,
+        "y": 119,
+        "angle": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "instance": 1,
+        "order": 0
+      },
+      {
+        "type": 35,
+        "x": 125,
+        "y": 119,
+        "angle": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "instance": 2,
+        "order": 1
+      },
+      {
+        "type": 3,
+        "x": 70,
+        "y": 260,
+        "angle": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "instance": 3,
+        "order": 2
+      },
+      {
+        "type": 3,
+        "x": 125,
+        "y": 260,
+        "angle": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "instance": 4,
+        "order": 3
+      },
+      {
+        "type": 5,
+        "x": 395,
+        "y": 120,
+        "angle": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "instance": 5,
+        "order": 4
+      },
+      {
+        "type": 5,
+        "x": 395,
+        "y": 240,
+        "angle": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "instance": 6,
+        "order": 5
+      }
+    ]
+  }
+}

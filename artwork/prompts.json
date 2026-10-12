@@ -1,0 +1,88 @@
+{
+  "sky-background": {
+    "name": "sky-background",
+    "transparent_background": false,
+    "prompt": "Use case: stylized-concept. Production game background, landscape 16:9. Use the supplied approved Clone Rush candy sky concepts as style reference. Render ONLY the distant sky scenery: radiant azure blue sky, fluffy soft white clouds, distant floating blue rock islands with bright green foliage and pastel pink/yellow/cyan rounded candy towers, delicate turquoise waterfalls. Soft atmospheric depth, glossy polished family-friendly 3D mobile game art. Keep the central 70% quiet clear sky with delicate far clouds; most islands along the far edges and lower corners, strongly softened by distance. All scenery is far behind gameplay. No foreground platforms, no foreground floor, no characters, portals, text, logo, buttons or interface. Full bleed opaque, high quality landscape."
+  },
+  "logo": {
+    "name": "logo",
+    "transparent_background": true,
+    "prompt": "Use case: background-extraction. Produce a standalone transparent PNG of ONLY the CLONE RUSH wordmark from the supplied approved lobby. Preserve its exact design: chunky glossy white CLONE on top with pink cube O and two navy oval eyes, cyan blue RUSH underneath, deep blue beveled outlines, backing of small white clouds, green leaves and tiny white daisies. Center logo filling canvas with modest transparent padding. No sky, no button, island, characters or portal. Clean actual transparent alpha around the complete logo. Wide landscape asset."
+  },
+  "clones": {
+    "name": "clones",
+    "transparent_background": true,
+    "prompt": "Use case: stylized-concept. Production sprite sheet for Clone Rush matching supplied approved candy sky concept. Genuinely transparent background, no ground shadows. Canvas 1536x1024, exactly 3 columns by 2 rows of equal 512x512 cells. Each sprite isolated and centered in its cell leaving 90 pixels empty gutters. Front view orthographic glossy rounded cube, TWO vertical navy oval eyes, no mouth arms legs or accessories. Cubes identical silhouette, completely flat bottom, high fidelity polished bright family mobile game 3D. Row1 col1 icy white with faint cyan shading, row1 col2 candy pink, row1 col3 mint green. Row2 col1 peach yellow, row2 col2 lavender violet, row2 col3 a single small white glossy crystal shard for death particles. Cube sprites occupy x100..410 within each cell, y110..420. All cubes exactly same size. No UI, text, portals, decorations or background. Actual alpha transparency."
+  },
+  "objects-v2": {
+    "name": "objects-v2",
+    "transparent_background": true,
+    "prompt": "Use case: precise-object-edit. Edit this production transparent1536x1024 sprite atlas. Change ONLY the solid dark circular centers of the two top row portal RINGS (cyan ring at approximately x288 y245, magenta ring at x1245 y245): remove that dark center entirely to actual transparent alpha, a clean circular hole through each ring, so an animated core sprite can show through it. Preserve all ring rims, glowing studs, pedestals and all other sprites including the two swirling cores, key, bounce pad, spikes exactly at their current positions and sizes. Keep canvas1536x1024. Keep transparent background. No additional objects, no text. Both portal rings must have a completely clear see-through central circular aperture, NOT dark blue fill or colored fill."
+  },
+  "sky-background-portrait": {
+    "name": "sky-background-portrait",
+    "transparent_background": false,
+    "prompt": "Use case: style-transfer. Create the PORTRAIT phone companion of the supplied approved Clone Rush candy sky background. Tall9:19.5 portrait canvas. Match the same exact bright azure sky, soft white clouds, floating rounded blue rock islands with bright green foliage, pink/yellow/cyan rounded candy towers and fine turquoise waterfalls. Distant scenery only, soft atmospheric depth, glossy polished family mobile game art. Composition adapted for a narrow portrait phone: visible floating islands at BOTH left and right edges in the top third and lower third, fluffy clouds at bottom; central sixty percent remains quiet blue sky for the game. Maintain the approved palette and materials. No foreground platforms, ground, characters, portals, logo, words, UI or buttons. Full bleed opaque high quality portrait illustration, compatible with the landscape background as same world."
+  },
+  "interface-v3": {
+    "name": "interface-v3",
+    "paths": [
+      "docs/concepts/candy-sky-v1/lobby-v3.png",
+      "docs/concepts/candy-sky-v1/choose-level.png",
+      "docs/concepts/candy-sky-v1/gameplay.png"
+    ],
+    "prompt": "Use case: stylized-concept. Production sprite atlas for Clone Rush Candy Sky. Input images are approved visual references, match their smooth puffy white cloud UI, rounded navy typography and candy pink. Generate a 1536x1024 transparent PNG sprite sheet, not a mockup. Every object completely isolated with clear transparent gutters. NO blue outline around white panels. Precisely arranged:\ntop left at x30..650 y40..250: the complete pink glossy candy PLAY button from lobby reference, including large WHITE rounded 3D letters PLAY and WHITE play triangle, pink white diagonal endcaps. No other text on sheet.\ntop right x800..1500 y60..240: blank horizontal white fluffy cloud pill, broad clean smooth white center, puffy cloud lobes on left/right, subtle icy blue underside and soft shadow, identical to gameplay HUD reference.\nmiddle left x40..280 y350..580: round white fluffy cloud button blank.\nmiddle center x360..610 y350..580: cyan glossy rounded-square level tile blank.\nmiddle center-right x700..950 y350..580: pink glossy rounded-square level tile blank with thin cyan glow.\nmiddle right x1100..1350 y350..580: pale blue WHITE rounded-square level tile blank, no number, no lock, very faint pale blue rim.\nbottom left x30..700 y690..990: big empty translucent frosted pale blue rounded rectangular panel, smooth large radius, NO saturated border, no details, no text, no tile grid.\nbottom right x850..1500 y700..790: empty pale blue recessed slider/progress trough on solid white cloud outer housing; opaque blue channel, no transparent hole.\nbottom right x850..1500 y850..920: glossy cyan-to-magenta horizontal progress fill strip, fully solid, capsule shape.\nbottom right x850..1500 y950..1000: glossy pink volume slider fill strip capsule.\nStyle exactly the approved concepts, white marshmallow/cloud edges, cyan pale-blue shading, no thick electric blue strokes. Nothing cropped. No background, genuine alpha transparency."
+  },
+  "islands-v2": {
+    "name": "islands-v2",
+    "paths": [
+      "docs/concepts/candy-sky-v1/gameplay.png"
+    ],
+    "prompt": "Use case: stylized-concept. Production modular 2D platform sprite atlas for Clone Rush. Approved image is style reference. Generate transparent 1536x1024 sprite sheet. Front orthographic, flat horizontal walkable top, no perspective or isometry. Seven separate isolated assets arranged in strict rows with transparent gutters:\nROW1 y25..330: left x25..460 small floating island, center x540..990 medium island, right x1070..1510 medium island. Thick smooth pink/white diagonal striped flat candy top at y100, tiny foliage/daisies at ends rising to y35, bright green scalloped foliage under pink cap, rounded dangling blue rock clusters taper into transparent air around y310. Widths ~430 height290, 430x250, 430x290. Strong rounded natural silhouette like the reference small islands.\nROW2 y390..650 x25..1510: ONE broad long island 1480x250, same candy striped walkable surface at y455, tiny daisies/end foliage, lush scalloped green skirt, multiple hanging rounded azure blue boulders underneath. Entire rounded left and right ends visible, not cut. Uniform stripe pitch.\nROW3 y710..1000: left x40..440 ONE seamless blue rock texture swatch made from LARGE soft organic blue boulders, no brickwork, no tiny cobblestone, no black cracks. Center x580..780 ONE narrow vertical hanging rocky island with natural scalloped sides and rounded tapered bottom, full blue rock fill from y735 to920, green leafy cap at y715. Right x1000..1460 a compact standalone blue rock boulder 460x250 with organic irregular oval silhouette and completely transparent exterior. Blue rocks should be soft azure rather than extremely saturated electric blue. No columns made of tiles, no construction, no wall frames, no ceiling. No characters, portals, text, icons, background. Exact reference material and lighting. Genuine transparent alpha."
+  },
+  "icons-v2": {
+    "name": "icons-v2",
+    "paths": [
+      "docs/concepts/candy-sky-v1/gameplay.png",
+      "docs/concepts/candy-sky-v1/choose-level.png",
+      "docs/concepts/candy-sky-v1/lobby-v3.png"
+    ],
+    "prompt": "Use case: stylized-concept. Transparent 1536x1024 clean isolated sprite atlas of icons for approved Clone Rush Candy Sky UI. Match reference navy blue glyphs with rounded edges, subtle soft bevel, minimal bright blue rim. NOT neon cyan, NO electric cyan shiny outlined toys. Strict 4 columns x3 rows, each cell384x341, glyph centered in cell with generous 60px transparent gutter. Row1: pause two navy rounded vertical bars; white glossy play triangle with soft pale blue bevel; navy rounded clockwise restart arrow; navy back left arrow. Row2: navy left arrow; navy right arrow; navy up arrow; navy speaker with sound waves. Row3: navy musical note; WHITE checkmark with subtle blue shadow; muted desaturated blue-gray closed padlock; glossy hot pink round slider knob. No text, no panels, no circles behind the first 11 icons. Only knob is round. Consistent icon size ~220px. Transparent alpha, no background. Production isolated assets, no clipping."
+  },
+  "island-profiles-v3": {
+    "prompt": "Use case: stylized-concept. Production transparent sprite sheet for Clone Rush. Input reference: approved gameplay image, style reference only. Render THREE fully isolated floating island sprites in three horizontal rows on a 1536x1024 transparent canvas. Each island centered in its row with generous transparent padding: small island in top row about 500px wide, medium in middle row about 950px wide, long in bottom row about 1400px wide. All islands have a perfectly horizontal flat pink-and-white diagonal candy stripe walking surface, rounded lush green grassy rim with a few tiny white flowers, compact rounded blue rock/cloud underside. Shallow profiles, approximately 180-230px tall. Front elevation, polished cute glossy 3D toy aesthetic exactly matching reference. Entire silhouettes visible with no clipping. No columns, no roots, no walls, no tall rocks, no background, no shadows on ground, no portals, no characters, no hazards, no UI, no text. Actual transparent alpha. Keep each sprite separate with at least 70px between silhouettes."
+  },
+  "portal-sheet-v3": {
+    "prompt": "Use case: stylized-concept. Production transparent sprite sheet for Clone Rush. Input reference: approved gameplay image, style reference only. TWO complete upright magical portal frames, identical size and geometry, side by side on 1536x1024 transparent canvas: cyan blue left, hot pink magenta right. Each portal centered in its own 768px wide cell, visible silhouette roughly 480px wide and 650px high. Polished rounded glossy 3D candy toy aesthetic, luminous oval ring, tiny round orbiting lights, small matching base feet. The interior aperture must be truly transparent and empty for an animated core inserted by the game. Generous transparent padding around every glow and particle, nothing touching canvas edges. Entire portal including feet and all particles visible. No platform, no landscape, no text, no UI, no characters, no ground shadow. Actual transparent alpha."
+  },
+  "floating-portals-v1": {
+    "tool": "image_gen.imagegen (built-in)",
+    "intent": "Generate a new transparent sprite atlas using the approved standing portals as style reference.",
+    "source": "portal-sheet-v3.png",
+    "output": "floating-portals-v1.png",
+    "prompt": "Use case: stylized-concept. Asset type: production sprite atlas for Clone Rush Candy Sky Phaser platform game. Input image is STYLE REFERENCE ONLY: match its glossy toy-like blue and pink magic materials, soft white cloud puffs and bright polished highlights. Create TWO NEW FREE-FLOATING PORTAL RINGS, genuinely transparent background, arranged side by side in equal 768x1024 cells on a 1536x1024 canvas. Left ring cyan/royal blue reusable portal; right ring magenta/pink single-use portal. Each ring centered precisely at the center of its own cell (384,512 left, 1152,512 right). Each is a CLOSED CIRCULAR self-contained toroidal magical ring facing the viewer straight on, outer diameter about 580 pixels and inner opening diameter about 430 pixels. CLEAR FLOATING SILHOUETTE: no feet, no pedestal, no platform, no bottom plinth, no flat base, no gravity-dependent top ornament, no supports, no chains. Symmetric ring with small rounded candy-like segments, tiny white cloud-like puffs evenly on four diagonals, and 4-6 small energy beads floating around the perimeter within a 660 pixel diameter. Transparent empty opening so the game can render its existing animated vortex behind it. Keep highlights on the ring, a narrow cyan or pink emissive inner edge, minimal controlled glow confined close to the rim, clean alpha edges. Both rings equal size, same front view and shape; only material color differs. No floor shadow. No sky, no ground, no scenery, no text, no labels, no watermark, no rectangles or grid. The new rings must clearly read as intentionally levitating magical gates, unlike the reference portal doors that have feet. Transparent canvas around the complete sprites and inside openings; ample empty margins in each cell.",
+    "apertureCenters": {
+      "portal": [
+        398,
+        487.5
+      ],
+      "unstable": [
+        375,
+        487.5
+      ]
+    },
+    "note": "Aperture centers measured from opaque inner rim bounds. The image is copied unchanged; origins align openings to the existing sensor centers."
+  },
+  "favicon-master-v1": {
+    "tool": "image_gen.imagegen (built-in)",
+    "reference": "logo.png",
+    "master": "favicon-master-v1.png",
+    "prompt": "Use case: logo-brand\nAsset type: square browser favicon and mobile home-screen icon for the existing Clone Rush Candy Sky game.\nInput image 1 is STYLE AND CHARACTER IDENTITY REFERENCE ONLY: the approved existing game wordmark. Create a NEW standalone app icon, not the wordmark.\nPrimary request: one large friendly pink rounded cube with exactly two dark navy tall oval eyes, matching the pink O character in the supplied Clone Rush logo. No mouth, no arms, no legs. Glossy soft toy/candy 3D rendering, clean strong silhouette and saturated pink body with bright white upper-left highlight, cobalt blue lower rim.\nComposition: square 1024x1024, cube centered, fills about 72 percent of the square, straight front view with subtle depth, very simple and immediately readable at 16x16 pixels. A tiny soft white cloud cushion beneath the cube is allowed, but keep it simple.\nBackdrop: solid bright Candy Sky cyan-blue background filling the ENTIRE square to every edge, subtly lighter near the center. Opaque square artwork, no external rounded-square mask; mobile OS will mask it.\nPalette and material must match the supplied approved logo: pink candy, cobalt blue outline, deep navy eyes, sky cyan, white specular highlights.\nConstraints: no letters, no wordmark, no text, no labels, no watermark, no collage, no multiple icons, no portal or scenery, no intricate decorations, no border frame. Keep essential face in central 70 percent for home-screen masks.",
+    "exports": "icons/ contains only Lanczos size exports; favicon.ico packages 16, 32 and 48px versions. Original master artwork is unchanged."
+  },
+  "decor-sheet": {
+    "key": "decor",
+    "transparent": true,
+    "prompt": "REFERENCE: the attached image is a strict art-direction reference, not an edit target. Generate NEW production game art matching it closely: polished hand-painted 2.5D casual puzzle platformer, chunky beveled bright golden hardware with square bolts, broad warm chestnut wood, smooth blue-violet castle stone, deep cobalt blue, soft dimensional highlights. Straight orthographic front view, same crisp rich finish as reference. No photographic textures, no rough realism, no perspective ground plane, no labels, no grid lines, no watermark.\nAsset type: transparent castle decoration and effects sprite atlas. Landscape 1536x1024, EXACTLY 3 columns and 2 rows of equal cells, centered isolated elements with 50px transparent gutters, genuinely transparent background. Row 1: (1) a single lively upright golden-yellow/orange TORCH FLAME with a white hot center, tapered organic shape like the reference, about 160x290, soft tiny alpha glow, no bowl; (2) a thick golden wall-mounted BRAZIER BOWL with small rounded bracket underneath, reference-style smooth metal, no fire, around 250x200; (3) one vertical royal-blue BANNER with beveled golden border, pointed bottom and large gold three-point crown emblem, top horizontal gold hanging rod, about 160x300. Row 2: (4) a single tiny glowing amber ember fleck about 35x50; (5) a single sharp four-point cyan-white magic sparkle about 70x70; (6) a soft circular pale cyan radial GLOW, strongest transparent cyan-white at center and fades smoothly to fully transparent outside, diameter around 200px. Nothing else. No text, no labels, no backdrop or grid lines, no extra objects."
+  }
+}

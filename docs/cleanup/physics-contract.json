@@ -1,0 +1,615 @@
+{
+  "actors": [
+    {
+      "actor": {
+        "id": 3,
+        "name": "Player Normal",
+        "sprite": 4,
+        "bodyType": 2,
+        "autoScale": true,
+        "fixedRotation": true,
+        "friction": 0,
+        "restitution": 0,
+        "mass": 1,
+        "group": 0
+      },
+      "fixture": {
+        "frameWidth": 20,
+        "frameHeight": 20,
+        "originX": 10,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": false,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 5,
+        "name": "Exit",
+        "sprite": 6,
+        "bodyType": 1,
+        "autoScale": false,
+        "fixedRotation": false,
+        "friction": 0.20000000298023224,
+        "restitution": 0,
+        "mass": 1,
+        "group": 4
+      },
+      "fixture": {
+        "frameWidth": 40,
+        "frameHeight": 40,
+        "originX": 20,
+        "originY": 20,
+        "shapes": [
+          {
+            "sensor": true,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 6,
+                "y": 6
+              },
+              {
+                "x": 34,
+                "y": 6
+              },
+              {
+                "x": 34,
+                "y": 34
+              },
+              {
+                "x": 6,
+                "y": 34
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 9,
+        "name": "Spikes 1",
+        "sprite": 10,
+        "bodyType": 0,
+        "autoScale": false,
+        "fixedRotation": false,
+        "friction": 0.20000000298023224,
+        "restitution": 0,
+        "mass": 1,
+        "group": 4
+      },
+      "fixture": {
+        "frameWidth": 20,
+        "frameHeight": 20,
+        "originX": 10,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": true,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 13
+              },
+              {
+                "x": 20,
+                "y": 13
+              },
+              {
+                "x": 20,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 11,
+        "name": "Spikes 2",
+        "sprite": 12,
+        "bodyType": 0,
+        "autoScale": false,
+        "fixedRotation": false,
+        "friction": 0.20000000298023224,
+        "restitution": 0,
+        "mass": 1,
+        "group": 4
+      },
+      "fixture": {
+        "frameWidth": 40,
+        "frameHeight": 20,
+        "originX": 20,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": true,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 13
+              },
+              {
+                "x": 40,
+                "y": 13
+              },
+              {
+                "x": 40,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 13,
+        "name": "Spikes 4",
+        "sprite": 14,
+        "bodyType": 0,
+        "autoScale": false,
+        "fixedRotation": false,
+        "friction": 0.20000000298023224,
+        "restitution": 0,
+        "mass": 1,
+        "group": 4
+      },
+      "fixture": {
+        "frameWidth": 80,
+        "frameHeight": 20,
+        "originX": 40,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": true,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 13
+              },
+              {
+                "x": 80,
+                "y": 13
+              },
+              {
+                "x": 80,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 15,
+        "name": "Unstable Exit",
+        "sprite": 16,
+        "bodyType": 0,
+        "autoScale": false,
+        "fixedRotation": false,
+        "friction": 0.20000000298023224,
+        "restitution": 0,
+        "mass": 1,
+        "group": 4
+      },
+      "fixture": {
+        "frameWidth": 40,
+        "frameHeight": 40,
+        "originX": 20,
+        "originY": 20,
+        "shapes": [
+          {
+            "sensor": true,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 6,
+                "y": 6
+              },
+              {
+                "x": 34,
+                "y": 6
+              },
+              {
+                "x": 34,
+                "y": 34
+              },
+              {
+                "x": 6,
+                "y": 34
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 17,
+        "name": "Player Reverse",
+        "sprite": 18,
+        "bodyType": 2,
+        "autoScale": true,
+        "fixedRotation": true,
+        "friction": 0,
+        "restitution": 0,
+        "mass": 1,
+        "group": 0
+      },
+      "fixture": {
+        "frameWidth": 20,
+        "frameHeight": 20,
+        "originX": 10,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": false,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 19,
+        "name": "Player Nojump",
+        "sprite": 20,
+        "bodyType": 2,
+        "autoScale": true,
+        "fixedRotation": true,
+        "friction": 0,
+        "restitution": 0,
+        "mass": 1,
+        "group": 0
+      },
+      "fixture": {
+        "frameWidth": 20,
+        "frameHeight": 20,
+        "originX": 10,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": false,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 21,
+        "name": "Player Particle",
+        "sprite": 22,
+        "bodyType": 2,
+        "autoScale": false,
+        "fixedRotation": false,
+        "friction": 0.20000000298023224,
+        "restitution": 0,
+        "mass": 1,
+        "group": 2
+      },
+      "fixture": {
+        "frameWidth": 6,
+        "frameHeight": 6,
+        "originX": 3,
+        "originY": 3,
+        "shapes": []
+      }
+    },
+    {
+      "actor": {
+        "id": 23,
+        "name": "Bounce Block",
+        "sprite": 24,
+        "bodyType": 0,
+        "autoScale": false,
+        "fixedRotation": false,
+        "friction": 0.20000000298023224,
+        "restitution": 0,
+        "mass": 1,
+        "group": 1
+      },
+      "fixture": {
+        "frameWidth": 20,
+        "frameHeight": 20,
+        "originX": 10,
+        "originY": 20,
+        "shapes": [
+          {
+            "sensor": false,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 0
+              },
+              {
+                "x": 20,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 25,
+        "name": "Player Slide",
+        "sprite": 26,
+        "bodyType": 2,
+        "autoScale": true,
+        "fixedRotation": true,
+        "friction": 0,
+        "restitution": 0,
+        "mass": 1,
+        "group": 0
+      },
+      "fixture": {
+        "frameWidth": 20,
+        "frameHeight": 20,
+        "originX": 10,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": false,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 32,
+        "name": "Exit Key",
+        "sprite": 33,
+        "bodyType": 1,
+        "autoScale": false,
+        "fixedRotation": false,
+        "friction": 0.20000000298023224,
+        "restitution": 0,
+        "mass": 1,
+        "group": 4
+      },
+      "fixture": {
+        "frameWidth": 20,
+        "frameHeight": 20,
+        "originX": 10,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": true,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 3,
+                "y": 3
+              },
+              {
+                "x": 17,
+                "y": 3
+              },
+              {
+                "x": 17,
+                "y": 17
+              },
+              {
+                "x": 3,
+                "y": 17
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "actor": {
+        "id": 35,
+        "name": "Player Gravity",
+        "sprite": 36,
+        "bodyType": 2,
+        "autoScale": true,
+        "fixedRotation": true,
+        "friction": 0,
+        "restitution": 0,
+        "mass": 1,
+        "group": 0
+      },
+      "fixture": {
+        "frameWidth": 20,
+        "frameHeight": 20,
+        "originX": 10,
+        "originY": 10,
+        "shapes": [
+          {
+            "sensor": false,
+            "friction": 0.20000000298023224,
+            "restitution": 0,
+            "density": 0.10000000149011612,
+            "group": -1000,
+            "points": [
+              {
+                "x": 0,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 1
+              },
+              {
+                "x": 19,
+                "y": 20
+              },
+              {
+                "x": 0,
+                "y": 20
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "collisionPairs": [
+    {
+      "group1": 0,
+      "group2": 0
+    },
+    {
+      "group1": 0,
+      "group2": 1
+    },
+    {
+      "group1": 0,
+      "group2": 3
+    },
+    {
+      "group1": 0,
+      "group2": 4
+    },
+    {
+      "group1": 1,
+      "group2": 3
+    },
+    {
+      "group1": 3,
+      "group2": 3
+    }
+  ]
+}

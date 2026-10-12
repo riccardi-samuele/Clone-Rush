@@ -1,0 +1,13 @@
+{
+  "name": "Clone Rush",
+  "short_name": "Clone Rush",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#67c8ff",
+  "theme_color": "#67c8ff",
+  "icons": [
+    { "src": "./assets/candy-sky-v1/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/candy-sky-v1/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

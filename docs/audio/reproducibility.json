@@ -1,0 +1,68 @@
+{
+  "rendererSha256": "bfb5a1c77c8bf2a5730ccb1d3234f5a76f15bf2a2a1bbb4b1e7587b3d631e545",
+  "numpyVersion": "2.5.3",
+  "ffmpegVersion": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+  "method": "Two independent offline renders; SHA-256 of all 12 encoded files compared.",
+  "outputs": [
+    {
+      "id": 27,
+      "format": "ogg",
+      "identical": true
+    },
+    {
+      "id": 27,
+      "format": "mp3",
+      "identical": true
+    },
+    {
+      "id": 28,
+      "format": "ogg",
+      "identical": true
+    },
+    {
+      "id": 28,
+      "format": "mp3",
+      "identical": true
+    },
+    {
+      "id": 29,
+      "format": "ogg",
+      "identical": true
+    },
+    {
+      "id": 29,
+      "format": "mp3",
+      "identical": true
+    },
+    {
+      "id": 30,
+      "format": "ogg",
+      "identical": true
+    },
+    {
+      "id": 30,
+      "format": "mp3",
+      "identical": true
+    },
+    {
+      "id": 34,
+      "format": "ogg",
+      "identical": true
+    },
+    {
+      "id": 34,
+      "format": "mp3",
+      "identical": true
+    },
+    {
+      "id": 52,
+      "format": "ogg",
+      "identical": true
+    },
+    {
+      "id": 52,
+      "format": "mp3",
+      "identical": true
+    }
+  ]
+}

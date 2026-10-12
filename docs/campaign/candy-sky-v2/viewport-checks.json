@@ -1,0 +1,880 @@
+{
+  "method": "Initial production scenes rendered on desktop and touch phone; complete art bounds checked against the world camera. Real touch events for movement and jump on level 18.",
+  "scenes": [
+    {
+      "format": "desktop",
+      "number": 1,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 2,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 3,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 4,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 5,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 6,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 7,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 8,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 9,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 10,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 11,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 12,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 13,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 14,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 15,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 16,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 17,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 18,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 19,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 20,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 21,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 22,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 23,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 24,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 25,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 26,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 27,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 28,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 29,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 30,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 31,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 32,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "desktop",
+      "number": 0,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 0,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 1,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 2,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 3,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 4,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 5,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 6,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 7,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 8,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 9,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 10,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 11,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 12,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 13,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 14,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 15,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 16,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 17,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 18,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 19,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 20,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 21,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 22,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 23,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 24,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 25,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 26,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 27,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 28,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 29,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 30,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 31,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 32,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    },
+    {
+      "format": "phone",
+      "number": 0,
+      "clipped": [],
+      "hudVisible": true,
+      "touchButtons": 3,
+      "camera": {
+        "x": -28,
+        "y": -28,
+        "right": 508,
+        "bottom": 376
+      }
+    }
+  ],
+  "errors": [],
+  "touch": {
+    "moves": true,
+    "jumpsDown": true,
+    "position": {
+      "x": 100.75919197074447,
+      "y": 136.5122088414881
+    },
+    "velocity": {
+      "x": 150,
+      "y": 359.9999999999995
+    },
+    "actions": [
+      "right",
+      "up"
+    ]
+  }
+}

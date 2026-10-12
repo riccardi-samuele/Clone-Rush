@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#67c8ff" />
+    <meta name="description" content="Clone Rush — guide every clone home in a synchronized puzzle platformer." />
+    <title>Clone Rush</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/candy-sky-v1/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/candy-sky-v1/icons/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/candy-sky-v1/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Clone Rush" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preload" href="./assets/fonts/Fredoka.ttf" as="font" type="font/ttf" crossorigin />
+  </head>
+  <body>
+    <main id="game" aria-label="Clone Rush"></main>
+    <section id="loading-screen" aria-label="Loading Clone Rush" data-state="loading">
+      <div class="loading-content">
+        <img class="loading-logo" src="./assets/candy-sky-v1/logo.png" alt="Clone Rush" />
+        <img class="loading-hero" src="./assets/candy-sky-v1/hero.png" alt="" />
+        <div class="loading-status"><span id="loading-label">Loading…</span></div>
+        <div class="loading-progress">
+          <div class="loading-track" role="progressbar" aria-label="Loading game" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <div id="loading-fill" aria-hidden="true">
+              <svg viewBox="854 818 630 66" preserveAspectRatio="none" focusable="false">
+                <image href="./assets/candy-sky-v1/interface-v3.png" width="1536" height="1024" />
+              </svg>
+            </div>
+          </div>
+          <span id="loading-percent" aria-hidden="true">0%</span>
+        </div>
+        <p class="loading-tip">Guide every clone to a portal</p>
+        <p id="loading-error" role="alert" hidden></p>
+        <button id="loading-retry" type="button" hidden>Try again</button>
+      </div>
+    </section>
+    <noscript>Enable JavaScript to play Clone Rush.</noscript>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

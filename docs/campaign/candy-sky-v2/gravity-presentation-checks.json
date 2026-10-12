@@ -1,0 +1,282 @@
+{
+  "recordedAt": "2026-10-12T14:53:27.098Z",
+  "method": "Production scenes at fixed 10ms steps; desktop and touch phone. Orientation, cue association, pause, lifecycle and introductory HUD verified independently of physics witnesses.",
+  "scenes": [
+    {
+      "format": "desktop",
+      "number": 18,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true,
+      "tutorial": {
+        "explicitDirections": true,
+        "fitsScreen": true,
+        "clearOfHeader": true,
+        "textFitsPanel": true,
+        "readable": true,
+        "persistsUntilAction": true,
+        "resumes": true,
+        "dismissedAfterKey": true,
+        "returnsOnRestart": true
+      },
+      "paused": true
+    },
+    {
+      "format": "desktop",
+      "number": 1,
+      "purpleCount": 0,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 0,
+      "undersideCount": 0,
+      "surfaceCount": 0,
+      "follows": true
+    },
+    {
+      "format": "desktop",
+      "number": 19,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 2,
+      "surfaceCount": 2,
+      "follows": true
+    },
+    {
+      "format": "desktop",
+      "number": 20,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 2,
+      "surfaceCount": 2,
+      "follows": true
+    },
+    {
+      "format": "desktop",
+      "number": 21,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true
+    },
+    {
+      "format": "desktop",
+      "number": 23,
+      "purpleCount": 2,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 2,
+      "undersideCount": 2,
+      "surfaceCount": 2,
+      "follows": true
+    },
+    {
+      "format": "desktop",
+      "number": 24,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 2,
+      "surfaceCount": 2,
+      "follows": true
+    },
+    {
+      "format": "desktop",
+      "number": 0,
+      "purpleCount": 2,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 2,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true
+    },
+    {
+      "format": "phone",
+      "number": 18,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true,
+      "tutorial": {
+        "explicitDirections": true,
+        "fitsScreen": true,
+        "clearOfHeader": true,
+        "textFitsPanel": true,
+        "readable": true,
+        "persistsUntilAction": true,
+        "resumes": true,
+        "dismissedAfterKey": true,
+        "returnsOnRestart": true
+      },
+      "paused": true
+    },
+    {
+      "format": "phone",
+      "number": 1,
+      "purpleCount": 0,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 0,
+      "undersideCount": 0,
+      "surfaceCount": 0,
+      "follows": true
+    },
+    {
+      "format": "phone",
+      "number": 19,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 2,
+      "surfaceCount": 2,
+      "follows": true
+    },
+    {
+      "format": "phone",
+      "number": 20,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 2,
+      "surfaceCount": 2,
+      "follows": true
+    },
+    {
+      "format": "phone",
+      "number": 21,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true
+    },
+    {
+      "format": "phone",
+      "number": 23,
+      "purpleCount": 2,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 2,
+      "undersideCount": 2,
+      "surfaceCount": 2,
+      "follows": true
+    },
+    {
+      "format": "phone",
+      "number": 24,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 2,
+      "surfaceCount": 2,
+      "follows": true
+    },
+    {
+      "format": "phone",
+      "number": 0,
+      "purpleCount": 2,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 2,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true
+    },
+    {
+      "format": "phone-small",
+      "number": 18,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true,
+      "tutorial": {
+        "explicitDirections": true,
+        "fitsScreen": true,
+        "clearOfHeader": true,
+        "textFitsPanel": true,
+        "readable": true,
+        "persistsUntilAction": true,
+        "resumes": true,
+        "dismissedAfterKey": true,
+        "returnsOnRestart": true
+      },
+      "paused": true
+    },
+    {
+      "format": "phone-landscape",
+      "number": 18,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true,
+      "tutorial": {
+        "explicitDirections": true,
+        "fitsScreen": true,
+        "clearOfHeader": true,
+        "textFitsPanel": true,
+        "readable": true,
+        "persistsUntilAction": true,
+        "resumes": true,
+        "dismissedAfterKey": true,
+        "returnsOnRestart": true
+      },
+      "paused": true
+    },
+    {
+      "format": "phone-density",
+      "number": 18,
+      "purpleCount": 1,
+      "purpleUpsideDown": true,
+      "othersUpright": true,
+      "badgeCount": 1,
+      "undersideCount": 1,
+      "surfaceCount": 1,
+      "follows": true,
+      "tutorial": {
+        "explicitDirections": true,
+        "fitsScreen": true,
+        "clearOfHeader": true,
+        "textFitsPanel": true,
+        "readable": true,
+        "persistsUntilAction": true,
+        "resumes": true,
+        "dismissedAfterKey": true,
+        "returnsOnRestart": true
+      },
+      "paused": true
+    }
+  ],
+  "errors": [],
+  "resize": {
+    "remainsVisible": true,
+    "fits": true,
+    "readable": true,
+    "textFitsPanel": true
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "recordedAt": "2026-10-12T13:22:55.177Z",
+  "method": "Real browser RAF, keyboard input and production UI flow. Only scene references exposed. No frozen physics, manual clocks, input substitution or terminal overrides.",
+  "errors": [],
+  "phases": [
+    {
+      "phase": "enter-via-selector",
+      "number": 18,
+      "status": "playing",
+      "platforms": 1,
+      "keys": [
+        false
+      ],
+      "clone": {
+        "x": 79.41694901102368,
+        "y": 128.01440490524206,
+        "ground": 1
+      },
+      "renderedContact": {
+        "gap": 0,
+        "samplingPixelsPerWorldUnit": 4,
+        "actualAnimatedSprite": true
+      }
+    },
+    {
+      "phase": "walk-without-jumping",
+      "number": 18,
+      "status": "playing",
+      "platforms": 1,
+      "keys": [
+        false
+      ],
+      "clone": {
+        "x": 240.37194189635727,
+        "y": 128.73661022530942,
+        "ground": 1
+      },
+      "renderedContact": {
+        "gap": 0,
+        "samplingPixelsPerWorldUnit": 4,
+        "actualAnimatedSprite": true
+      }
+    },
+    {
+      "phase": "retry-standing-under-key",
+      "number": 18,
+      "status": "playing",
+      "platforms": 1,
+      "keys": [
+        true
+      ],
+      "clone": {
+        "x": 236.17273633617614,
+        "y": 128.22794764572973,
+        "ground": 1
+      },
+      "renderedContact": {
+        "gap": 0,
+        "samplingPixelsPerWorldUnit": 4,
+        "actualAnimatedSprite": true
+      }
+    },
+    {
+      "phase": "advanced-to-19",
+      "number": 19,
+      "status": "playing",
+      "platforms": 2,
+      "keys": [],
+      "clone": {
+        "x": 93.35514423044819,
+        "y": 190.530000001,
+        "ground": 1
+      }
+    }
+  ],
+  "completed": true,
+  "video": "media/level-18-live.webm"
+}

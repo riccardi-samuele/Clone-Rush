@@ -1,0 +1,218 @@
+[
+  {
+    "name": "sky-background",
+    "file": "public/assets/candy-sky-v1/sky-background.png",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "4e7a5a8800bcecf23e6ea68c369376c280549488c9e79a9137ac53a055708a73",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-a97b824b-aad2-4475-bbf0-2e2f2428171c.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "sky-background-portrait",
+    "file": "public/assets/candy-sky-v1/sky-background-portrait.png",
+    "size": [
+      853,
+      1844
+    ],
+    "sha256": "fb77a1f020422eba258cfb583c76c0e33b618d4071a3da67b441706eb1622475",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-98cd4728-4f7b-454d-a1f7-51f88a2639e0.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "islands-v2",
+    "file": "public/assets/candy-sky-v1/islands-v2.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "32d99aa1a2943b0cff3625c332f1a1542a6b53e3c29b881a825fd1ee9422136c",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-2e52f9ff-cb4e-4b9f-b33f-5b3bcbc9e56f.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "island-profiles-v3",
+    "file": "public/assets/candy-sky-v1/island-profiles-v3.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "bce551ae8188c527e3a1b831e70f8e418c733d32c1fc1230bf132f407cdc55c8",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-66b41980-935f-4105-abde-2eaac1ffca88.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "portal-sheet-v3",
+    "file": "public/assets/candy-sky-v1/portal-sheet-v3.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "b5910ef6dcf530655e7026029d58ce014977fe9bfa5d09ba93ef967b3d1e127e",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-e1ca97d5-27a8-4b8b-8253-83904ef723a9.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "floating-portals-v1",
+    "file": "public/assets/candy-sky-v1/floating-portals-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "3bca3d84cef9b122239795fab60f0d5e6f20b2e4d3506d02248230994dc1c336",
+    "generator": "built-in imagegen",
+    "source": null,
+    "promptRecorded": true
+  },
+  {
+    "name": "clones",
+    "file": "public/assets/candy-sky-v1/clones.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "bb5c28de923c10a4ed29cfc3a458f6b5b490820662f1ce9852ba17f2507ab3f8",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-edc43b6c-19e0-4968-bb93-7b38b81046a5.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "objects-v2",
+    "file": "public/assets/candy-sky-v1/objects-v2.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "92f85a39d8919d5fdb917fb6429b6d1b81dfc2ed464339a0a02061507349bf26",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-55c80f56-0582-4cb3-98e5-2754e7c0697c.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "icons-v2",
+    "file": "public/assets/candy-sky-v1/icons-v2.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "b01e8d75895a285711abbc510105e2a4d967ea3e0e9a865b39152497a8e535b7",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-664785f4-44b2-4984-866e-4b27ce7f5d55.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "interface-v3",
+    "file": "public/assets/candy-sky-v1/interface-v3.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "45c9f39184c6c0bc74649f0c3a8648abe1625212afd4e8c19c52cae71b822d76",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-097c7f45-f669-43c1-b938-0015b5787170.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "logo",
+    "file": "public/assets/candy-sky-v1/logo.png",
+    "size": [
+      1774,
+      887
+    ],
+    "sha256": "2519e889634ca3a6d832f7ceb76d2c5960c2e09cc018ddacd949e35f672ed3f5",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-23d0d15f-e467-4f47-a7c5-08494ad0821c.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "hero",
+    "file": "public/assets/candy-sky-v1/hero.png",
+    "size": [
+      2172,
+      724
+    ],
+    "sha256": "da6e9e7bb0fd60450474f0286a1a30ec28cabf39f99cafbdb8d9e218c3899899",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-74f89b5c-10a8-42d8-9dd4-2ad5c9cbdd0a.png",
+    "promptRecorded": false
+  },
+  {
+    "name": "transition",
+    "file": "public/assets/candy-sky-v1/transition.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "4da48d8a060c4fe682b2632d30bfd9b733805322165fcf49c344caa781e62f33",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-e71b5afe-325d-4a82-8afb-d0ee28fb2c4d.png",
+    "promptRecorded": false
+  },
+  {
+    "name": "decor-sheet",
+    "file": "public/assets/candy-sky-v1/decor-sheet.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "196c97fb49b3ccba5669191e0667b8e62fde8356c764f5fb07d3c14ff341a3d9",
+    "generator": "built-in imagegen",
+    "source": "/home/samu/.codex/generated_images/01a11fbf-40c9-7d23-af23-9355cc52cc2d/exec-6284ddc4-9000-46c5-9ad3-1c070fd149f7.png",
+    "promptRecorded": true
+  },
+  {
+    "name": "favicon-master-v1",
+    "file": "artwork/favicon-master-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "5c5ac5f1ea12453b8092f5a19d8c0e31b49e1af37072269d730b898509074cb9",
+    "generator": "built-in imagegen",
+    "source": null,
+    "promptRecorded": true
+  },
+  {
+    "name": "apple-touch-icon",
+    "file": "public/assets/candy-sky-v1/icons/apple-touch-icon.png",
+    "sha256": "45eddf47016ba6e14952f73cb26a0fc9ebe6ab4cbb193648f744d9121d17daf9",
+    "derivedFrom": "artwork/favicon-master-v1.png"
+  },
+  {
+    "name": "favicon-16",
+    "file": "public/assets/candy-sky-v1/icons/favicon-16.png",
+    "sha256": "82c66b5c9a80637e3bad42a4b1767c0af83a9b0729259b992d7967d90495985d",
+    "derivedFrom": "artwork/favicon-master-v1.png"
+  },
+  {
+    "name": "favicon-32",
+    "file": "public/assets/candy-sky-v1/icons/favicon-32.png",
+    "sha256": "eb9943f5999051b370f17d5b168675ce5d1652741f00d6dcb8b92ec78605cee8",
+    "derivedFrom": "artwork/favicon-master-v1.png"
+  },
+  {
+    "name": "icon-192",
+    "file": "public/assets/candy-sky-v1/icons/icon-192.png",
+    "sha256": "7339f0a892489981fc6483659cd7a61fe4e79e88722ea59bc1a094c93fd61a07",
+    "derivedFrom": "artwork/favicon-master-v1.png"
+  },
+  {
+    "name": "icon-512",
+    "file": "public/assets/candy-sky-v1/icons/icon-512.png",
+    "sha256": "312d44bb00bbdfd56fc2596347a452927f2f313569dc11e258d1ce1745437222",
+    "derivedFrom": "artwork/favicon-master-v1.png"
+  },
+  {
+    "name": "favicon",
+    "file": "public/favicon.ico",
+    "sha256": "2258437a9150624e0e1fc3aae969f1de7a66f95f73cf0cefd53047b02ae20c1d",
+    "derivedFrom": "artwork/favicon-master-v1.png"
+  }
+]

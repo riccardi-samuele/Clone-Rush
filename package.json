@@ -1,0 +1,25 @@
+{
+  "name": "clone-rush",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:mobile": "node --test tools/candy-sky/mobile-regressions.test.mjs && node tools/candy-sky/verify-mobile.mjs",
+    "test:maps": "node tools/candy-sky/check-campaign.mjs",
+    "test:maps:unit": "node --test --test-reporter=spec tools/candy-sky/campaign-regressions.test.mjs tools/candy-sky/extension-regressions.test.mjs tools/candy-sky/progress-regressions.test.mjs tools/candy-sky/island-geometry.test.mjs tools/candy-sky/portal-presentation.test.mjs",
+    "test:maps:live": "node tools/candy-sky/verify-level18-live.mjs",
+    "test:cleanup": "node --test tools/candy-sky/cleanup-regressions.test.mjs",
+    "test:audio": "node --test tools/candy-sky/audio-regressions.test.mjs && node tools/candy-sky/verify-audio.mjs"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "playwright": "1.64.0",
+    "vite": "6.4.1"
+  }
+}

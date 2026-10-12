@@ -1,0 +1,341 @@
+{
+  "checkedAt": "2026-10-12T14:53:58.052Z",
+  "baseline": false,
+  "method": "Production terrain rendered into a transparent RenderTexture. Actual Clone gravity, contacts and movement replayed at 10ms in a separate Matter engine on each production island fixture, in both directions. Visible avatar alpha checked against visible terrain alpha, maximum gap .5 world units at 4px/unit sampling. Separate fixture test; portal and UI behavior covered by integration and live browser checks.",
+  "levels": [
+    {
+      "number": 18,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 400,
+          "samples": 532,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 79.41774223312592,
+          "y": 128.0148983844301,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 19,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 200,
+          "width": 150,
+          "samples": 180,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        },
+        {
+          "x": 230,
+          "y": 240,
+          "width": 210,
+          "samples": 266,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 134.52921749084945,
+          "y": 228.72307287476127,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 20,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 150,
+          "samples": 180,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        },
+        {
+          "x": 230,
+          "y": 140,
+          "width": 210,
+          "samples": 266,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 109.53290046570795,
+          "y": 129.31533715946458,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 21,
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 420,
+          "samples": 558,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 74.10419774404905,
+          "y": 69.28046538580774,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 23,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 80,
+          "width": 210,
+          "samples": 266,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        },
+        {
+          "x": 290,
+          "y": 120,
+          "width": 150,
+          "samples": 180,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 79.41102743287344,
+          "y": 108.01072097413464,
+          "supported": true
+        },
+        {
+          "x": 129.52941919112868,
+          "y": 108.75564336599226,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0,
+        0
+      ]
+    },
+    {
+      "number": 24,
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 140,
+          "samples": 168,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        },
+        {
+          "x": 210,
+          "y": 80,
+          "width": 240,
+          "samples": 310,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 99.53290046570737,
+          "y": 69.31533715946388,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 0,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 400,
+          "samples": 532,
+          "maxVisualGap": 0,
+          "worst": null,
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 79.41774223312592,
+          "y": 128.0148983844301,
+          "supported": true
+        },
+        {
+          "x": 134.52921749084672,
+          "y": 128.72307287475743,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0,
+        0
+      ]
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "src/game/CandyIslandGeometry.js": "c0ebe630c5d1f75f4cea6658b4a82916696715386b5e8d23549f72f653ba6b21",
+    "src/game/LevelWorld.js": "ad710b0aa2736ab0c79eba3b7c85f3a690e0b1756d58e18d4f5f776b930673b5",
+    "src/game/candy-island-contour.json": "15fb4a90d6cf7cf1bd51efa66215b5c786c4442c91b121b1ae57c3fbc4ca8a59",
+    "src/game/CandyIslandStrip.js": "d8486771342ab994a3eb07752b63321ae39a0b622a0731492abe8ebde55a930a",
+    "public/assets/candy-sky-v1/island-profiles-v3.png": "bce551ae8188c527e3a1b831e70f8e418c733d32c1fc1230bf132f407cdc55c8"
+  }
+}

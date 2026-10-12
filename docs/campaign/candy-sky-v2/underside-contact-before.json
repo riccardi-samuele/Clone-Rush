@@ -1,0 +1,374 @@
+{
+  "checkedAt": "2026-10-12T13:24:48.044Z",
+  "baseline": true,
+  "method": "Production terrain rendered into a transparent RenderTexture. Actual Clone gravity, contacts and movement replayed at 10ms in a separate Matter engine on each production island fixture, in both directions. Visible avatar alpha checked against visible terrain alpha, maximum gap .5 world units at 4px/unit sampling. Separate fixture test; portal and UI behavior covered by integration and live browser checks.",
+  "levels": [
+    {
+      "number": 18,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 400,
+          "samples": 510,
+          "maxVisualGap": 1,
+          "worst": {
+            "x": 422.1000000000001,
+            "y": 129.46999999899998
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 79.5,
+          "y": 129.469999999,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 19,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 200,
+          "width": 150,
+          "samples": 176,
+          "maxVisualGap": 1,
+          "worst": {
+            "x": 171.60000000000008,
+            "y": 229.469999999
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        },
+        {
+          "x": 230,
+          "y": 240,
+          "width": 210,
+          "samples": 256,
+          "maxVisualGap": 1.5,
+          "worst": {
+            "x": 414.0999999999997,
+            "y": 269.469999999
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 134.5,
+          "y": 229.469999999,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 20,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 150,
+          "samples": 176,
+          "maxVisualGap": 1,
+          "worst": {
+            "x": 171.60000000000008,
+            "y": 129.46999999899998
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        },
+        {
+          "x": 230,
+          "y": 140,
+          "width": 210,
+          "samples": 256,
+          "maxVisualGap": 1.5,
+          "worst": {
+            "x": 414.0999999999997,
+            "y": 169.469999999
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 109.5,
+          "y": 129.469999999,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 21,
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 420,
+          "samples": 536,
+          "maxVisualGap": 0.75,
+          "worst": {
+            "x": 52.10000000000008,
+            "y": 69.46999999899998
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 74.5,
+          "y": 69.46999999899998,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 23,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 80,
+          "width": 210,
+          "samples": 256,
+          "maxVisualGap": 1.5,
+          "worst": {
+            "x": 224.10000000000008,
+            "y": 109.469999999
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        },
+        {
+          "x": 290,
+          "y": 120,
+          "width": 150,
+          "samples": 176,
+          "maxVisualGap": 1,
+          "worst": {
+            "x": 421.5999999999997,
+            "y": 149.469999999
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 79.5,
+          "y": 109.46915559004401,
+          "supported": true
+        },
+        {
+          "x": 129.5,
+          "y": 109.469999999,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0,
+        0
+      ]
+    },
+    {
+      "number": 24,
+      "platforms": [
+        {
+          "x": 30,
+          "y": 40,
+          "width": 140,
+          "samples": 162,
+          "maxVisualGap": 1,
+          "worst": {
+            "x": 152.60000000000008,
+            "y": 69.46999999899998
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        },
+        {
+          "x": 210,
+          "y": 80,
+          "width": 240,
+          "samples": 296,
+          "maxVisualGap": 1,
+          "worst": {
+            "x": 432.00000000000017,
+            "y": 109.46999999899998
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 99.5,
+          "y": 69.46999999899998,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0
+      ]
+    },
+    {
+      "number": 0,
+      "platforms": [
+        {
+          "x": 40,
+          "y": 100,
+          "width": 400,
+          "samples": 510,
+          "maxVisualGap": 1,
+          "worst": {
+            "x": 422.1000000000001,
+            "y": 129.46999999899998
+          },
+          "lostSupportFrames": 0,
+          "traversals": [
+            {
+              "direction": 1,
+              "reachedOppositeEnd": true
+            },
+            {
+              "direction": -1,
+              "reachedOppositeEnd": true
+            }
+          ]
+        }
+      ],
+      "clones": [
+        {
+          "x": 79.5,
+          "y": 129.469999999,
+          "supported": true
+        },
+        {
+          "x": 134.5,
+          "y": 129.469999999,
+          "supported": true
+        }
+      ],
+      "cloneGaps": [
+        0,
+        0
+      ]
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "src/game/CandyIslandGeometry.js": "c0ebe630c5d1f75f4cea6658b4a82916696715386b5e8d23549f72f653ba6b21",
+    "src/game/LevelWorld.js": "ad710b0aa2736ab0c79eba3b7c85f3a690e0b1756d58e18d4f5f776b930673b5",
+    "src/game/candy-island-contour.json": "15fb4a90d6cf7cf1bd51efa66215b5c786c4442c91b121b1ae57c3fbc4ca8a59",
+    "src/game/CandyIslandStrip.js": "d8486771342ab994a3eb07752b63321ae39a0b622a0731492abe8ebde55a930a",
+    "public/assets/candy-sky-v1/island-profiles-v3.png": "bce551ae8188c527e3a1b831e70f8e418c733d32c1fc1230bf132f407cdc55c8"
+  }
+}

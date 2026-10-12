@@ -1,0 +1,579 @@
+{
+  "recordedAt": "2026-10-12T15:05:45.886Z",
+  "baseURL": "http://127.0.0.1:5175/",
+  "method": "Chromium phone emulation, actual single/multi-touch events, production scenes and physics at fixed 10ms. Isolated fresh saves; only scene references exposed.",
+  "cases": [
+    {
+      "name": "portrait",
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "controls": {
+        "left": {
+          "x": 49.38666651092592,
+          "y": 786.2399985106266,
+          "target": {
+            "width": 52,
+            "height": 52
+          }
+        },
+        "right": {
+          "x": 108.70666645296285,
+          "y": 786.2399985106266,
+          "target": {
+            "width": 52,
+            "height": 52
+          }
+        },
+        "up": {
+          "x": 340.61333289302763,
+          "y": 786.2399985106266,
+          "target": {
+            "width": 52,
+            "height": 52
+          }
+        }
+      },
+      "moved": {
+        "x": 100.10000000000008,
+        "vy": -359.9999999999966,
+        "actions": [
+          "right",
+          "up"
+        ]
+      },
+      "cancelled": {
+        "touches": [],
+        "velocity": {
+          "x": 0,
+          "y": 239.99999999998067
+        },
+        "pointers": [
+          {
+            "id": 0,
+            "down": false,
+            "active": true,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 1,
+            "down": false,
+            "active": false,
+            "x": 193.413330078125,
+            "y": 1532.47998046875
+          },
+          {
+            "id": 2,
+            "down": false,
+            "active": false,
+            "x": 657.2266845703125,
+            "y": 1532.47998046875
+          },
+          {
+            "id": 3,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 4,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "status": "playing"
+      },
+      "paused": {
+        "status": "paused",
+        "targets": [
+          {
+            "width": 44,
+            "height": 43.99999999999999
+          },
+          {
+            "width": 44,
+            "height": 43.99999999999999
+          },
+          {
+            "width": 44,
+            "height": 43.99999999999999
+          }
+        ],
+        "hidden": true
+      },
+      "safe": {
+        "x": 12,
+        "y": 20,
+        "right": 12,
+        "bottom": 22
+      },
+      "completed": {
+        "number": 2,
+        "completed": true,
+        "playing": true
+      }
+    },
+    {
+      "name": "landscape",
+      "width": 844,
+      "height": 390,
+      "dpr": 2,
+      "controls": {
+        "left": {
+          "x": 48.354939329213124,
+          "y": 333.12433583640507,
+          "target": {
+            "width": 52.00000000000001,
+            "height": 52.00000000000001
+          }
+        },
+        "right": {
+          "x": 107.01168778093384,
+          "y": 333.12433583640507,
+          "target": {
+            "width": 52.00000000000001,
+            "height": 52.00000000000001
+          }
+        },
+        "up": {
+          "x": 795.6450601939498,
+          "y": 333.12433583640507,
+          "target": {
+            "width": 52.00000000000001,
+            "height": 52.00000000000001
+          }
+        }
+      },
+      "moved": {
+        "x": 100.10000000000008,
+        "vy": -359.9999999999966,
+        "actions": [
+          "right",
+          "up"
+        ]
+      },
+      "cancelled": {
+        "touches": [],
+        "velocity": {
+          "x": 0,
+          "y": 239.99999999998067
+        },
+        "pointers": [
+          {
+            "id": 0,
+            "down": false,
+            "active": true,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 1,
+            "down": false,
+            "active": false,
+            "x": 190.02337646484375,
+            "y": 626.2486572265625
+          },
+          {
+            "id": 2,
+            "down": false,
+            "active": false,
+            "x": 1567.2901611328125,
+            "y": 626.2486572265625
+          },
+          {
+            "id": 3,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 4,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "status": "playing"
+      },
+      "paused": {
+        "status": "paused",
+        "targets": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "hidden": true
+      },
+      "safe": {
+        "x": 12,
+        "y": 20,
+        "right": 12,
+        "bottom": 22
+      },
+      "completed": {
+        "number": 2,
+        "completed": true,
+        "playing": true
+      }
+    },
+    {
+      "name": "small",
+      "width": 320,
+      "height": 568,
+      "dpr": 3,
+      "controls": {
+        "left": {
+          "x": 47.208887435294486,
+          "y": 512.106667711928,
+          "target": {
+            "width": 52,
+            "height": 52
+          }
+        },
+        "right": {
+          "x": 105.12888818173795,
+          "y": 512.106667711928,
+          "target": {
+            "width": 52,
+            "height": 52
+          }
+        },
+        "up": {
+          "x": 272.7911125647055,
+          "y": 512.106667711928,
+          "target": {
+            "width": 52,
+            "height": 52
+          }
+        }
+      },
+      "moved": {
+        "x": 100.10000000000008,
+        "vy": -359.9999999999966,
+        "actions": [
+          "right",
+          "up"
+        ]
+      },
+      "cancelled": {
+        "touches": [],
+        "velocity": {
+          "x": 0,
+          "y": 239.99999999998067
+        },
+        "pointers": [
+          {
+            "id": 0,
+            "down": false,
+            "active": true,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 1,
+            "down": false,
+            "active": false,
+            "x": 186.25778198242188,
+            "y": 984.21337890625
+          },
+          {
+            "id": 2,
+            "down": false,
+            "active": false,
+            "x": 521.5822143554688,
+            "y": 984.21337890625
+          },
+          {
+            "id": 3,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 4,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "status": "playing"
+      },
+      "paused": {
+        "status": "paused",
+        "targets": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "hidden": true
+      },
+      "safe": {
+        "x": 12,
+        "y": 20,
+        "right": 12,
+        "bottom": 22
+      },
+      "completed": {
+        "number": 2,
+        "completed": true,
+        "playing": true
+      }
+    },
+    {
+      "name": "small-landscape",
+      "width": 568,
+      "height": 320,
+      "dpr": 2,
+      "controls": {
+        "left": {
+          "x": 46.272050998836974,
+          "y": 264.90966901065207,
+          "target": {
+            "width": 51.99999999999999,
+            "height": 51.99999999999999
+          }
+        },
+        "right": {
+          "x": 103.58979784906339,
+          "y": 264.90966901065207,
+          "target": {
+            "width": 51.99999999999999,
+            "height": 51.99999999999999
+          }
+        },
+        "up": {
+          "x": 521.7279470938145,
+          "y": 264.90966901065207,
+          "target": {
+            "width": 51.99999999999999,
+            "height": 51.99999999999999
+          }
+        }
+      },
+      "moved": {
+        "x": 100.10000000000008,
+        "vy": -359.9999999999966,
+        "actions": [
+          "right",
+          "up"
+        ]
+      },
+      "cancelled": {
+        "touches": [],
+        "velocity": {
+          "x": 0,
+          "y": 239.99999999998067
+        },
+        "pointers": [
+          {
+            "id": 0,
+            "down": false,
+            "active": true,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 1,
+            "down": false,
+            "active": false,
+            "x": 183.17959594726562,
+            "y": 489.8193359375
+          },
+          {
+            "id": 2,
+            "down": false,
+            "active": false,
+            "x": 1019.4559326171875,
+            "y": 489.8193359375
+          },
+          {
+            "id": 3,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 4,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "status": "playing"
+      },
+      "paused": {
+        "status": "paused",
+        "targets": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "hidden": true
+      },
+      "safe": {
+        "x": 12,
+        "y": 20,
+        "right": 12,
+        "bottom": 22
+      },
+      "completed": {
+        "number": 2,
+        "completed": true,
+        "playing": true
+      }
+    },
+    {
+      "name": "compact",
+      "width": 320,
+      "height": 460,
+      "dpr": 2,
+      "controls": {
+        "left": {
+          "x": 46.24224996680847,
+          "y": 404.9352209550912,
+          "target": {
+            "width": 51.99999999999999,
+            "height": 51.99999999999999
+          }
+        },
+        "right": {
+          "x": 103.540844147,
+          "y": 404.9352209550912,
+          "target": {
+            "width": 51.99999999999999,
+            "height": 51.99999999999999
+          }
+        },
+        "up": {
+          "x": 273.75775337105165,
+          "y": 404.9352209550912,
+          "target": {
+            "width": 51.99999999999999,
+            "height": 51.99999999999999
+          }
+        }
+      },
+      "moved": {
+        "x": 100.10000000000008,
+        "vy": -359.9999999999966,
+        "actions": [
+          "right",
+          "up"
+        ]
+      },
+      "cancelled": {
+        "touches": [],
+        "velocity": {
+          "x": 0,
+          "y": 239.99999999998067
+        },
+        "pointers": [
+          {
+            "id": 0,
+            "down": false,
+            "active": true,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 1,
+            "down": false,
+            "active": false,
+            "x": 183.08169555664062,
+            "y": 769.8704223632812
+          },
+          {
+            "id": 2,
+            "down": false,
+            "active": false,
+            "x": 523.5155029296875,
+            "y": 769.8704223632812
+          },
+          {
+            "id": 3,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "id": 4,
+            "down": false,
+            "active": false,
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "status": "playing"
+      },
+      "paused": {
+        "status": "paused",
+        "targets": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "hidden": true
+      },
+      "safe": {
+        "x": 12,
+        "y": 20,
+        "right": 12,
+        "bottom": 22
+      },
+      "completed": {
+        "number": 2,
+        "completed": true,
+        "playing": true
+      }
+    }
+  ],
+  "errors": [],
+  "failures": []
+}
