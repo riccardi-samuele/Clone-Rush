@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "package:portals": "npm run build && node tools/publishing/package.mjs && node --test tools/publishing/package.test.mjs",
     "preview": "vite preview",
     "test:mobile": "node --test tools/candy-sky/mobile-regressions.test.mjs && node tools/candy-sky/verify-mobile.mjs",
     "test:maps": "node tools/candy-sky/check-campaign.mjs",

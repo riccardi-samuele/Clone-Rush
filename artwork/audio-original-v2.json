@@ -1,0 +1,123 @@
+{
+  "version": "original-v2",
+  "source": "Independent oscillator and seeded-noise synthesis; no imported audio or melodies",
+  "renderer": "tools/publishing/render-original-audio.py",
+  "sampleRate": 44100,
+  "seed": 20261012,
+  "assets": [
+    {
+      "id": 27,
+      "name": "Jump Sound",
+      "durationSeconds": 0.34,
+      "outputs": [
+        {
+          "path": "assets/media/sfx-sound-27-original-v2.ogg",
+          "sha256": "0babd0337a0d5828f4f3a3e338bf007b9c4379f847ea886e96bacc99ac1d9e58",
+          "bytes": 5657,
+          "format": "ogg"
+        },
+        {
+          "path": "assets/media/sfx-sound-27-original-v2.mp3",
+          "sha256": "c86aa97dafa3be0250dea2159a28782777e2a51a556bb103f075700537b8398d",
+          "bytes": 6730,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Death Sound",
+      "durationSeconds": 0.59,
+      "outputs": [
+        {
+          "path": "assets/media/sfx-sound-28-original-v2.ogg",
+          "sha256": "f647ca66ef629ee3a9d8147d9ccebae6e5b798ecb7632e3c55696cf646937a7d",
+          "bytes": 7344,
+          "format": "ogg"
+        },
+        {
+          "path": "assets/media/sfx-sound-28-original-v2.mp3",
+          "sha256": "8109d28ac89f5aae39d325c46f62e1e1af07c5f75c563098fcb3df6749765817",
+          "bytes": 10492,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Exit Sound",
+      "durationSeconds": 0.62,
+      "outputs": [
+        {
+          "path": "assets/media/sfx-sound-29-original-v2.ogg",
+          "sha256": "2654b7faf4687e2c529c94195322069b5847bb969a1f11f91d8f9f4ef04ce729",
+          "bytes": 7134,
+          "format": "ogg"
+        },
+        {
+          "path": "assets/media/sfx-sound-29-original-v2.mp3",
+          "sha256": "78857b76a764883f74ba1abb1cefcaace94bb7652004e413b9d039663eaeadbb",
+          "bytes": 10910,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Bounce Sound",
+      "durationSeconds": 0.39,
+      "outputs": [
+        {
+          "path": "assets/media/sfx-sound-30-original-v2.ogg",
+          "sha256": "01c30913e35cb5ec6c2feaf6b29fce5e2ce7d4a5549cae6e29bba4387f8fdde8",
+          "bytes": 5761,
+          "format": "ogg"
+        },
+        {
+          "path": "assets/media/sfx-sound-30-original-v2.mp3",
+          "sha256": "db3b7235cd69bcbf510652113589f96a7d3af87af3eccef7a490780ab57f841a",
+          "bytes": 7148,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Exit Key Sound",
+      "durationSeconds": 0.72,
+      "outputs": [
+        {
+          "path": "assets/media/sfx-sound-34-original-v2.ogg",
+          "sha256": "7457831d45b9c79b5bde9e957e9acf2543464e25e1fb1d9daeb6f57c62efbd46",
+          "bytes": 7874,
+          "format": "ogg"
+        },
+        {
+          "path": "assets/media/sfx-sound-34-original-v2.mp3",
+          "sha256": "354852eecdc310e8804b4cd49198895807a6fd0992f1bd1f5cd022aa5be07697",
+          "bytes": 12581,
+          "format": "mp3"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Main Theme",
+      "durationSeconds": 33.10344671201814,
+      "outputs": [
+        {
+          "path": "assets/media/music-sound-52-original-v2.ogg",
+          "sha256": "320f049d8c2a7e023dfe81de1eccfc82d34bee50ba31724c11d9a214052a444b",
+          "bytes": 153879,
+          "format": "ogg"
+        },
+        {
+          "path": "assets/media/music-sound-52-original-v2.mp3",
+          "sha256": "68d9ce14f833146ad34f50fbebea319a95d598b37231dd9345735768373d75fc",
+          "bytes": 530851,
+          "format": "mp3"
+        }
+      ]
+    }
+  ]
+}

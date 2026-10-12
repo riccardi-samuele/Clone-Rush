@@ -672,8 +672,8 @@
       "name": "Bounce Sound",
       "key": "audio-30",
       "paths": [
-        "assets/media/sfx-sound-30-candy-v1.ogg",
-        "assets/media/sfx-sound-30-candy-v1.mp3"
+        "assets/media/sfx-sound-30-original-v2.ogg",
+        "assets/media/sfx-sound-30-original-v2.mp3"
       ]
     },
     {
@@ -681,8 +681,8 @@
       "name": "Death Sound",
       "key": "audio-28",
       "paths": [
-        "assets/media/sfx-sound-28-candy-v1.ogg",
-        "assets/media/sfx-sound-28-candy-v1.mp3"
+        "assets/media/sfx-sound-28-original-v2.ogg",
+        "assets/media/sfx-sound-28-original-v2.mp3"
       ]
     },
     {
@@ -690,8 +690,8 @@
       "name": "Exit Key Sound",
       "key": "audio-34",
       "paths": [
-        "assets/media/sfx-sound-34-candy-v1.ogg",
-        "assets/media/sfx-sound-34-candy-v1.mp3"
+        "assets/media/sfx-sound-34-original-v2.ogg",
+        "assets/media/sfx-sound-34-original-v2.mp3"
       ]
     },
     {
@@ -699,8 +699,8 @@
       "name": "Exit Sound",
       "key": "audio-29",
       "paths": [
-        "assets/media/sfx-sound-29-candy-v1.ogg",
-        "assets/media/sfx-sound-29-candy-v1.mp3"
+        "assets/media/sfx-sound-29-original-v2.ogg",
+        "assets/media/sfx-sound-29-original-v2.mp3"
       ]
     },
     {
@@ -708,8 +708,8 @@
       "name": "Jump Sound",
       "key": "audio-27",
       "paths": [
-        "assets/media/sfx-sound-27-candy-v1.ogg",
-        "assets/media/sfx-sound-27-candy-v1.mp3"
+        "assets/media/sfx-sound-27-original-v2.ogg",
+        "assets/media/sfx-sound-27-original-v2.mp3"
       ]
     },
     {
@@ -717,8 +717,8 @@
       "name": "Main Theme",
       "key": "audio-52",
       "paths": [
-        "assets/media/music-sound-52-candy-v1.ogg",
-        "assets/media/music-sound-52-candy-v1.mp3"
+        "assets/media/music-sound-52-original-v2.ogg",
+        "assets/media/music-sound-52-original-v2.mp3"
       ]
     }
   ],

@@ -46,17 +46,16 @@ La licenza SIL Open Font License è conservata accanto al font in
 
 ## Audio e dati fisici
 
-L'audio e i metadati fisici derivano da Jumping Clones di Robert Alvarez
-(rob1221). I sei audio originali OGG in `artwork/audio-source/` sono gli input
-del remix Candy Sky: cinque effetti ricostruiti con sintesi morbida e campanelli,
-più il tema originale riarrangiato. `tools/candy-sky/remix-audio.py` esegue il
-render offline; il gioco carica soltanto i dodici export `*-candy-v1.ogg/mp3`
-in `public/assets/media/`. I due formati mantengono la compatibilità dei browser.
-Seed, versioni degli strumenti, hash delle sorgenti e degli export, durata,
-picco e RMS decodificati sono registrati in `artwork/audio-remix.json`.
-I nomi degli eventi e i volumi salvati restano quelli del gioco.
-Fonte della distribuzione: `https://files.crazygames.com/jumping-clones/2/assets/`.
-Pagina dell'autore: `https://rob1221.itch.io/jumping-clones`.
+I sei suoni runtime sono ora sintesi originali da oscillatori e rumore
+deterministico, senza campioni audio importati. Lo script
+`tools/publishing/render-original-audio.py` genera i dodici export
+`*-original-v2.ogg/mp3` in `public/assets/media/`; il manifest con hash e
+durata è `artwork/audio-original-v2.json`. I nomi degli eventi e i volumi
+salvati restano quelli del gioco.
+
+I metadati fisici presenti nel catalogo hanno una provenienza storica dal
+prototipo Jumping Clones; verificare separatamente i diritti relativi a codice,
+regole e struttura dei livelli prima dell'invio ai portali.
 
 Il catalogo conserva le fixture, dimensioni, masse, attriti, gruppi di collisione
 e audio effettivamente necessari. Il controllo `npm run test:cleanup` confronta

@@ -7,8 +7,9 @@ import { EndingScene } from './scenes/EndingScene.js';
 import { LevelTransitionScene } from './scenes/LevelTransitionScene.js';
 import { VIEW } from './game/constants.js';
 import { installDisplayResolution } from './game/RenderQuality.js';
+import { installVisibilityPause } from './game/VisibilityPause.js';
 
-new Phaser.Game({
+const game = new Phaser.Game({
   type: Phaser.AUTO,
   parent: 'game',
   title: 'Clone Rush',
@@ -28,3 +29,4 @@ new Phaser.Game({
   } },
   scene: [BootScene, MenuScene, LevelSelectScene, PlayScene, EndingScene, LevelTransitionScene],
 });
+installVisibilityPause(game);

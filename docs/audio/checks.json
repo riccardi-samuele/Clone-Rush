@@ -1,5 +1,5 @@
 {
-  "recordedAt": "2026-10-12T14:02:51.772Z",
+  "recordedAt": "2026-10-12T15:41:55.531Z",
   "baseURL": "http://127.0.0.1:5175/",
   "method": "Chromium Web Audio, normal RAF, actual mouse/touch unlock and jump. Original production modules; only scene references exposed. Isolated saves with music 35%, effects 40%.",
   "cases": [
@@ -15,37 +15,37 @@
         "cache": [
           {
             "key": "audio-30",
-            "duration": 0.4270833333333333,
+            "duration": 0.38747916666666665,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-28",
-            "duration": 0.5570833333333334,
+            "duration": 0.5870833333333333,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-34",
-            "duration": 0.6870833333333334,
+            "duration": 0.7170833333333333,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-29",
-            "duration": 0.9470833333333334,
+            "duration": 0.6170833333333333,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-27",
-            "duration": 0.3178125,
+            "duration": 0.33708333333333335,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-52",
-            "duration": 164.55341666666666,
+            "duration": 33.1034375,
             "channels": 2,
             "sampleRate": 48000
           }
@@ -54,123 +54,123 @@
       "decoded": [
         {
           "id": 30,
-          "path": "assets/media/sfx-sound-30-candy-v1.ogg",
-          "duration": 0.42709750566893423,
+          "path": "assets/media/sfx-sound-30-original-v2.ogg",
+          "duration": 0.3874829931972789,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -9.76343710620568,
-          "rmsDb": -21.782455107453607,
-          "seam": 0.00008153505041263998
+          "peakDb": -6.834762761879865,
+          "rmsDb": -14.638199726474664,
+          "seam": 0.0024114057887345552
         },
         {
           "id": 30,
-          "path": "assets/media/sfx-sound-30-candy-v1.mp3",
-          "duration": 0.43,
+          "path": "assets/media/sfx-sound-30-original-v2.mp3",
+          "duration": 0.39,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -10.442546957850922,
-          "rmsDb": -22.249655852783356,
-          "seam": 0.00008095473067015746
+          "peakDb": -7.1905316626686435,
+          "rmsDb": -15.158102728343753,
+          "seam": 0.000011989493941655383
         },
         {
           "id": 28,
-          "path": "assets/media/sfx-sound-28-candy-v1.ogg",
-          "duration": 0.5570975056689342,
+          "path": "assets/media/sfx-sound-28-original-v2.ogg",
+          "duration": 0.5870975056689343,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.000198119026873,
-          "rmsDb": -25.602443082533508,
-          "seam": 0.00031037353619467467
+          "peakDb": -2.6414753652856837,
+          "rmsDb": -13.855135078594964,
+          "seam": 0.016502397134900093
         },
         {
           "id": 28,
-          "path": "assets/media/sfx-sound-28-candy-v1.mp3",
-          "duration": 0.56,
+          "path": "assets/media/sfx-sound-28-original-v2.mp3",
+          "duration": 0.59,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.449327762128465,
-          "rmsDb": -26.089103322944624,
-          "seam": 0.0002615387215882947
+          "peakDb": -3.340541165165956,
+          "rmsDb": -14.386518921940702,
+          "seam": 0.0026485833805054426
         },
         {
           "id": 34,
-          "path": "assets/media/sfx-sound-34-candy-v1.ogg",
-          "duration": 0.6870975056689342,
+          "path": "assets/media/sfx-sound-34-original-v2.ogg",
+          "duration": 0.7170975056689343,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -11.958201334547056,
-          "rmsDb": -25.34536970523163,
-          "seam": 0.000417479266616283
+          "peakDb": -2.9169935978966386,
+          "rmsDb": -15.502164869726753,
+          "seam": 0.012258683331310749
         },
         {
           "id": 34,
-          "path": "assets/media/sfx-sound-34-candy-v1.mp3",
-          "duration": 0.69,
+          "path": "assets/media/sfx-sound-34-original-v2.mp3",
+          "duration": 0.72,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.446317793225202,
-          "rmsDb": -25.795846962540967,
-          "seam": 0.0015706110062332357
+          "peakDb": -3.299503750391115,
+          "rmsDb": -15.961815304968148,
+          "seam": 0.0009970581158995628
         },
         {
           "id": 29,
-          "path": "assets/media/sfx-sound-29-candy-v1.ogg",
-          "duration": 0.9470975056689342,
+          "path": "assets/media/sfx-sound-29-original-v2.ogg",
+          "duration": 0.6170975056689343,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.109361326187058,
-          "rmsDb": -25.09580689321212,
-          "seam": 0.00012138084275647998
+          "peakDb": -2.8100570959262248,
+          "rmsDb": -15.014530917425413,
+          "seam": 0.001635901746340096
         },
         {
           "id": 29,
-          "path": "assets/media/sfx-sound-29-candy-v1.mp3",
-          "duration": 0.95,
+          "path": "assets/media/sfx-sound-29-original-v2.mp3",
+          "duration": 0.62,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.40874149963447,
-          "rmsDb": -25.536109287773098,
-          "seam": 0.0008337730572207103
+          "peakDb": -3.29858864098052,
+          "rmsDb": -15.506815051460771,
+          "seam": 0.0004598021332640201
         },
         {
           "id": 27,
-          "path": "assets/media/sfx-sound-27-candy-v1.ogg",
-          "duration": 0.3178231292517007,
+          "path": "assets/media/sfx-sound-27-original-v2.ogg",
+          "duration": 0.33709750566893426,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -10.92564475232704,
-          "rmsDb": -24.806990473774185,
-          "seam": 0.0013043594843793471
+          "peakDb": -6.72824310395212,
+          "rmsDb": -15.159291085071068,
+          "seam": 0.001490838942117989
         },
         {
           "id": 27,
-          "path": "assets/media/sfx-sound-27-candy-v1.mp3",
-          "duration": 0.32,
+          "path": "assets/media/sfx-sound-27-original-v2.mp3",
+          "duration": 0.3406575963718821,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -11.446107660390663,
-          "rmsDb": -25.28656015015851,
-          "seam": 0.00003508880914671053
+          "peakDb": -7.189851059428991,
+          "rmsDb": -15.689620117233375,
+          "seam": 0.00003025418300239835
         },
         {
           "id": 52,
-          "path": "assets/media/music-sound-52-candy-v1.ogg",
-          "duration": 164.55342403628117,
+          "path": "assets/media/music-sound-52-original-v2.ogg",
+          "duration": 33.10344671201814,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -8.457780621453626,
-          "rmsDb": -23.550732959124744,
-          "seam": 0.0013481802307069302
+          "peakDb": -2.9259728436739616,
+          "rmsDb": -14.677420322221575,
+          "seam": 0.00002254534228995908
         },
         {
           "id": 52,
-          "path": "assets/media/music-sound-52-candy-v1.mp3",
-          "duration": 164.55342403628117,
+          "path": "assets/media/music-sound-52-original-v2.mp3",
+          "duration": 33.10344671201814,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -8.932853981486236,
-          "rmsDb": -23.9996886336689,
-          "seam": 0.0017749499529600143
+          "peakDb": -3.29917448155863,
+          "rmsDb": -15.154921227670275,
+          "seam": 0.000003475398443697486
         }
       ],
       "playback": {
@@ -209,7 +209,7 @@
       "loop": {
         "count": 1,
         "playing": true,
-        "seek": 0.09199999999999786
+        "seek": 0.2199999999999971
       },
       "jump": {
         "plays": [
@@ -242,37 +242,37 @@
         "cache": [
           {
             "key": "audio-30",
-            "duration": 0.4270833333333333,
+            "duration": 0.38747916666666665,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-28",
-            "duration": 0.5570833333333334,
+            "duration": 0.5870833333333333,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-34",
-            "duration": 0.6870833333333334,
+            "duration": 0.7170833333333333,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-29",
-            "duration": 0.9470833333333334,
+            "duration": 0.6170833333333333,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-27",
-            "duration": 0.3178125,
+            "duration": 0.33708333333333335,
             "channels": 2,
             "sampleRate": 48000
           },
           {
             "key": "audio-52",
-            "duration": 164.55341666666666,
+            "duration": 33.1034375,
             "channels": 2,
             "sampleRate": 48000
           }
@@ -281,123 +281,123 @@
       "decoded": [
         {
           "id": 30,
-          "path": "assets/media/sfx-sound-30-candy-v1.ogg",
-          "duration": 0.42709750566893423,
+          "path": "assets/media/sfx-sound-30-original-v2.ogg",
+          "duration": 0.3874829931972789,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -9.76343710620568,
-          "rmsDb": -21.782455107453607,
-          "seam": 0.00008153505041263998
+          "peakDb": -6.834762761879865,
+          "rmsDb": -14.638199726474664,
+          "seam": 0.0024114057887345552
         },
         {
           "id": 30,
-          "path": "assets/media/sfx-sound-30-candy-v1.mp3",
-          "duration": 0.43,
+          "path": "assets/media/sfx-sound-30-original-v2.mp3",
+          "duration": 0.39,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -10.442546957850922,
-          "rmsDb": -22.249655852783356,
-          "seam": 0.00008095473067015746
+          "peakDb": -7.1905316626686435,
+          "rmsDb": -15.158102728343753,
+          "seam": 0.000011989493941655383
         },
         {
           "id": 28,
-          "path": "assets/media/sfx-sound-28-candy-v1.ogg",
-          "duration": 0.5570975056689342,
+          "path": "assets/media/sfx-sound-28-original-v2.ogg",
+          "duration": 0.5870975056689343,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.000198119026873,
-          "rmsDb": -25.602443082533508,
-          "seam": 0.00031037353619467467
+          "peakDb": -2.6414753652856837,
+          "rmsDb": -13.855135078594964,
+          "seam": 0.016502397134900093
         },
         {
           "id": 28,
-          "path": "assets/media/sfx-sound-28-candy-v1.mp3",
-          "duration": 0.56,
+          "path": "assets/media/sfx-sound-28-original-v2.mp3",
+          "duration": 0.59,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.449327762128465,
-          "rmsDb": -26.089103322944624,
-          "seam": 0.0002615387215882947
+          "peakDb": -3.340541165165956,
+          "rmsDb": -14.386518921940702,
+          "seam": 0.0026485833805054426
         },
         {
           "id": 34,
-          "path": "assets/media/sfx-sound-34-candy-v1.ogg",
-          "duration": 0.6870975056689342,
+          "path": "assets/media/sfx-sound-34-original-v2.ogg",
+          "duration": 0.7170975056689343,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -11.958201334547056,
-          "rmsDb": -25.34536970523163,
-          "seam": 0.000417479266616283
+          "peakDb": -2.9169935978966386,
+          "rmsDb": -15.502164869726753,
+          "seam": 0.012258683331310749
         },
         {
           "id": 34,
-          "path": "assets/media/sfx-sound-34-candy-v1.mp3",
-          "duration": 0.69,
+          "path": "assets/media/sfx-sound-34-original-v2.mp3",
+          "duration": 0.72,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.446317793225202,
-          "rmsDb": -25.795846962540967,
-          "seam": 0.0015706110062332357
+          "peakDb": -3.299503750391115,
+          "rmsDb": -15.961815304968148,
+          "seam": 0.0009970581158995628
         },
         {
           "id": 29,
-          "path": "assets/media/sfx-sound-29-candy-v1.ogg",
-          "duration": 0.9470975056689342,
+          "path": "assets/media/sfx-sound-29-original-v2.ogg",
+          "duration": 0.6170975056689343,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.109361326187058,
-          "rmsDb": -25.09580689321212,
-          "seam": 0.00012138084275647998
+          "peakDb": -2.8100570959262248,
+          "rmsDb": -15.014530917425413,
+          "seam": 0.001635901746340096
         },
         {
           "id": 29,
-          "path": "assets/media/sfx-sound-29-candy-v1.mp3",
-          "duration": 0.95,
+          "path": "assets/media/sfx-sound-29-original-v2.mp3",
+          "duration": 0.62,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -12.40874149963447,
-          "rmsDb": -25.536109287773098,
-          "seam": 0.0008337730572207103
+          "peakDb": -3.29858864098052,
+          "rmsDb": -15.506815051460771,
+          "seam": 0.0004598021332640201
         },
         {
           "id": 27,
-          "path": "assets/media/sfx-sound-27-candy-v1.ogg",
-          "duration": 0.3178231292517007,
+          "path": "assets/media/sfx-sound-27-original-v2.ogg",
+          "duration": 0.33709750566893426,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -10.92564475232704,
-          "rmsDb": -24.806990473774185,
-          "seam": 0.0013043594843793471
+          "peakDb": -6.72824310395212,
+          "rmsDb": -15.159291085071068,
+          "seam": 0.001490838942117989
         },
         {
           "id": 27,
-          "path": "assets/media/sfx-sound-27-candy-v1.mp3",
-          "duration": 0.32,
+          "path": "assets/media/sfx-sound-27-original-v2.mp3",
+          "duration": 0.3406575963718821,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -11.446107660390663,
-          "rmsDb": -25.28656015015851,
-          "seam": 0.00003508880914671053
+          "peakDb": -7.189851059428991,
+          "rmsDb": -15.689620117233375,
+          "seam": 0.00003025418300239835
         },
         {
           "id": 52,
-          "path": "assets/media/music-sound-52-candy-v1.ogg",
-          "duration": 164.55342403628117,
+          "path": "assets/media/music-sound-52-original-v2.ogg",
+          "duration": 33.10344671201814,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -8.457780621453626,
-          "rmsDb": -23.550732959124744,
-          "seam": 0.0013481802307069302
+          "peakDb": -2.9259728436739616,
+          "rmsDb": -14.677420322221575,
+          "seam": 0.00002254534228995908
         },
         {
           "id": 52,
-          "path": "assets/media/music-sound-52-candy-v1.mp3",
-          "duration": 164.55342403628117,
+          "path": "assets/media/music-sound-52-original-v2.mp3",
+          "duration": 33.10344671201814,
           "channels": 2,
           "sampleRate": 44100,
-          "peakDb": -8.932853981486236,
-          "rmsDb": -23.9996886336689,
-          "seam": 0.0017749499529600143
+          "peakDb": -3.29917448155863,
+          "rmsDb": -15.154921227670275,
+          "seam": 0.000003475398443697486
         }
       ],
       "playback": {
@@ -436,7 +436,7 @@
       "loop": {
         "count": 1,
         "playing": true,
-        "seek": 0.19866666666667498
+        "seek": 0.12400000000000055
       },
       "jump": {
         "plays": [

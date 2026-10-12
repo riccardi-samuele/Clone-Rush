@@ -58,9 +58,9 @@ export class RoyalPlayHUD {
     this.layout();
   }
 
-  togglePause() {
+  togglePause(force = false) {
     const scene = this.scene;
-    if (!['playing', 'paused'].includes(scene.status) || scene.leaving || scene.transitioning) return;
+    if (!['playing', 'paused'].includes(scene.status) || scene.leaving || (!force && scene.transitioning)) return;
     const paused = scene.status !== 'paused';
     scene.status = paused ? 'paused' : 'playing';
     scene.accumulator = 0;

@@ -6,7 +6,6 @@
 
 After intentionally replacing artwork, update the inventory and run `npm run test:cleanup`.
 
-`audio-source/` contains the six original OGG inputs actively used by
-`tools/candy-sky/remix-audio.py`. `audio-remix.json` records their hashes, the
-offline renderer/settings and measured OGG/MP3 exports. Sources do not ship in
-the production build. See `docs/audio/README.md` for reproduction and checks.
+`audio-original-v2.json` records the current independently synthesized OGG/MP3
+exports. Rebuild them with `tools/publishing/render-original-audio.py`; no input
+audio files are used.

@@ -42,21 +42,17 @@ Non sono necessari bundle o file del vecchio motore per avviare il gioco.
 
 ## Remix audio
 
-`candy-sky/remix-audio.py` richiede Python, NumPy e FFmpeg con libvorbis/libmp3lame.
-In alternativa al binario di sistema si può installare `imageio-ffmpeg`, oppure
-impostare `FFMPEG_BINARY` con il percorso del binario. Sono strumenti di
-authoring: il gioco non richiede Python né FFmpeg.
+`publishing/render-original-audio.py` richiede Python, NumPy e
+`imageio-ffmpeg`. Genera musica ed effetti originali senza file audio sorgente.
+Sono strumenti di authoring: il gioco non richiede Python né FFmpeg.
 
 ```sh
-python3 tools/candy-sky/remix-audio.py
+uv run --with numpy --with imageio-ffmpeg python tools/publishing/render-original-audio.py
 npm run test:audio
 npm run test:cleanup
 npm run build
 ```
 
-Il render legge i sei OGG in `artwork/audio-source/`, sovrascrive i dodici export
-runtime e aggiorna `artwork/audio-remix.json`. `--output` e `--manifest` consentono
-di generare una copia separata per il confronto. A parità di NumPy/FFmpeg e
-sorgenti, due render producono gli stessi hash. Il confronto e i test browser
-sono registrati in `docs/audio/`; la pagina `docs/audio/index.html` permette
-di ascoltare originali e remix attraverso Vite.
+Il render genera i dodici export runtime OGG/MP3 e aggiorna
+`artwork/audio-original-v2.json`. A parità di NumPy e FFmpeg gli output sono
+deterministici. `npm run test:audio` verifica gli eventi e la riproduzione browser.
