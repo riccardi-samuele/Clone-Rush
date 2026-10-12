@@ -14,9 +14,12 @@ The latest autonomous pre-submission checks are recorded in
 rights and portal-preview gates.
 
 The CrazyGames folder also includes `previews/clone-rush-landscape-preview.mp4`
-and `previews/clone-rush-portrait-preview.mp4` (17.52 seconds, mute,
+and `previews/clone-rush-portrait-preview.mp4` (16.32 seconds, mute,
 1920×1080 and 1080×1620). Both begin with the matching static ImageGen cover.
 The covers in `artwork/` are 1920×1080, 800×1200, 800×800 and 512×512.
+Variant B is the current delivery artwork; variant A remains in
+`artwork/publishing/covers/exports/`. The creative rationale, source captures
+and reproduction commands are in `marketing-v2.md`.
 The `submission.md` in each release folder contains the English title,
 description, controls and portal steps.
 

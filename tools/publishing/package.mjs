@@ -52,7 +52,11 @@ for (const site of sites) {
   execFileSync('python3', [join(root, 'tools/publishing/optimize-runtime-images.py'), web]);
   const summary = await auditBuild(web);
   if (summary.bytes > 20_000_000) throw Error(`CrazyGames mobile homepage limit exceeded: ${summary.bytes} bytes`);
-  await cp(join(root, 'artwork/publishing/covers/exports'), join(out, 'artwork'), { recursive: true });
+  await cp(join(root, 'artwork/publishing/covers/v2/exports'), join(out, 'artwork'), { recursive: true });
+  if (site === 'crazygames') {
+    await rm(join(out, 'previews'), { recursive: true, force: true });
+    await cp(join(root, 'artwork/publishing/previews/v2'), join(out, 'previews'), { recursive: true });
+  }
   await cp(join(root, `docs/publishing/${site}-submission.md`), join(out, 'submission.md'));
   execFileSync('python3', [join(root, 'tools/publishing/zip-deterministic.py'), web, join(out, archive)]);
   const buffer = await readFile(join(out, archive));
