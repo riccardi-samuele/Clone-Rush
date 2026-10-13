@@ -55,7 +55,11 @@ for (const site of sites) {
   await cp(join(root, 'artwork/publishing/covers/exports'), join(out, 'artwork'), { recursive: true });
   if (site === 'crazygames') {
     await rm(join(out, 'previews'), { recursive: true, force: true });
-    await cp(join(root, 'artwork/publishing/previews'), join(out, 'previews'), { recursive: true });
+    await mkdir(join(out, 'previews'), { recursive: true });
+    for (const orientation of ['landscape', 'portrait']) {
+      const name = `clone-rush-zoom-${orientation}.mp4`;
+      await cp(join(root, 'artwork/publishing/promos', name), join(out, 'previews', name));
+    }
   }
   await cp(join(root, `docs/publishing/${site}-submission.md`), join(out, 'submission.md'));
   execFileSync('python3', [join(root, 'tools/publishing/zip-deterministic.py'), web, join(out, archive)]);

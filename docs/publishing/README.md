@@ -14,14 +14,14 @@ CrazyGames' 20 MB mobile homepage threshold; the ZIP is 16,004,564 bytes.
 The current pre-submission assessment is `readiness-2026-10-13.md`, including
 the package SHA-256 digest and the remaining portal checks.
 
-The CrazyGames folder also includes `previews/clone-rush-landscape-preview.mp4`
-and `previews/clone-rush-portrait-preview.mp4` (16.32 seconds, mute,
+The CrazyGames folder also includes `previews/clone-rush-zoom-landscape.mp4`
+and `previews/clone-rush-zoom-portrait.mp4` (16 seconds, mute,
 1920×1080 and 1080×1620). Both begin with the matching static ImageGen cover.
 The covers in `artwork/` are 1920×1080, 800×1200, 800×800 and 512×512.
 The current delivery artwork and its ImageGen sources are in
 `artwork/publishing/covers/`. The creative rationale, source captures
 and reproduction commands are in `marketing.md`. The concise browser report is
-`marketing-report.html`; its two full-bleed zoom videos are in
+`marketing-report.html`; the two full-bleed zoom videos and their verification manifest are in
 `artwork/publishing/promos/`.
 The `submission.md` in each release folder contains the English title,
 description, controls and portal steps.

@@ -32,9 +32,11 @@ preserve the intended Candy Sky physics and map layouts during maintenance.
   maps by the current generator without old backups.
 - The upload contains the current game and its runtime resources. Package
   metadata and submission sheets identify Samuele Riccardi as the developer.
-- Three portal covers and two silent 16.32-second gameplay previews are present.
-- The approved seven-second full-bleed zoom clips are separate promotional
-  material, not the required portal gameplay previews.
+- Three portal covers and two silent 16-second animated cover previews are
+  present. Both start on their matching cover, briefly move closer and then
+  perform the approved continuous full-frame zoom-out. The rendering script
+  records the dimensions, audio check, size and first-frame comparison in
+  `artwork/publishing/promos/manifest.json`.
 
 ## Remaining publication steps
 

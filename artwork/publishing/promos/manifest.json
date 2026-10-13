@@ -1,0 +1,26 @@
+[
+  {
+    "file": "clone-rush-zoom-landscape.mp4",
+    "width": 1920,
+    "height": 1080,
+    "durationSeconds": 16.0,
+    "fps": 30.0,
+    "audio": false,
+    "bytes": 3149210,
+    "sha256": "71b574d541ddefc4d6a2bf68e0c7a206021cf54f01629d1d5d1b42f62d44f26e",
+    "coverSha256": "0326d78351556345a8361bf4122e6c811f7f4763cf307253b0cb62b51c21028e",
+    "firstFrameMeanError": 2.7295
+  },
+  {
+    "file": "clone-rush-zoom-portrait.mp4",
+    "width": 1080,
+    "height": 1620,
+    "durationSeconds": 16.0,
+    "fps": 30.0,
+    "audio": false,
+    "bytes": 2802117,
+    "sha256": "38eb00f5e769e9fd5f78fccd2dda6fb53d3fe8d7d6edb92697e092410c77b4fd",
+    "coverSha256": "2912e27a48a17df2766f5cc44ddc5fff91dfc59d34c4a5b67c479abb0f7a1477",
+    "firstFrameMeanError": 2.8051
+  }
+]

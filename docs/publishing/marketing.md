@@ -17,33 +17,26 @@ exports.
 
 ## Video
 
-Two separate, silent seven-second promotional videos live in
-`artwork/publishing/promos/`. They animate a full-bleed camera zoom-out
-on the cover, without side bands, in landscape and portrait. They
-are intended for promotion outside the portal listings. Render
-them with `uv run --with imageio-ffmpeg python tools/publishing/render-zoom-promo.py`.
+The two approved silent animated cover previews live in
+`artwork/publishing/promos/`. Each lasts 16 seconds and starts on the matching
+static cover. A short smooth push-in leads into the long zoom-out, keeping the
+image full-frame without side bands, blurred backdrops or cuts. Landscape is
+1920×1080; portrait is 1080×1620. These are cover animations, not recordings of
+a gameplay session. Their characters, islands, spikes and portals depict the
+game's visual theme. Editorial acceptance remains subject to portal review.
 
-Two 16.32-second muted previews are stored in
-`artwork/publishing/previews/`. They begin with the corresponding
-cover and then show unaccelerated gameplay from levels 1, 2, 25 and 32. The
-landscape video is 1920×1080; the portrait video is 1080×1620. Their source
-recordings come from `tools/publishing/capture-marketing.mjs`; the edit is
-reproducible after starting the game on `127.0.0.1:5175`:
+Regenerate and package the final videos with:
 
 ```sh
-npm run dev -- --host 127.0.0.1 --port 5175
-node tools/publishing/capture-marketing.mjs
-uv run --with imageio-ffmpeg python tools/publishing/render-previews.py
+uv run --with imageio-ffmpeg python tools/publishing/render-zoom-promo.py
 npm run package:portals
 ```
 
-Run the server in a separate terminal. The published video copies live in
-`release/crazygames/previews/`, outside the gameplay ZIP.
-
-The preview uses hard cuts between real levels. It has no cursor, black bars,
-opening logo transition, promotional overlay or sound. It does not depict
-abilities absent from gameplay. CrazyGames requests 15–20 seconds, matching
-static opening frame, full-screen landscape and portrait, and no sound.
+The rendering script checks dimensions, duration, absence of audio, size below
+50 MB and first-frame similarity to the matching cover, allowing for video
+compression. Results and source hashes are in `artwork/publishing/promos/manifest.json`.
+Upload copies live in `release/crazygames/previews/`, outside the gameplay ZIP:
+`clone-rush-zoom-landscape.mp4` and `clone-rush-zoom-portrait.mp4`.
 
 ## Launch and advertising decision
 

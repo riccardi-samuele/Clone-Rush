@@ -24,8 +24,9 @@ directories and keeping `index.html` at the upload root. The ZIP is a packaged
 copy for transport and integrity checks, not the file to drop in this form.
 Select **Yes, using LocalStorage** for progress, enable mobile support, and
 leave multiplayer and SDK audio muting unchecked. Upload the three cover PNGs
-from `artwork/` and the silent landscape and portrait MP4 files from `previews/`
-in their respective slots. Keep monetization disabled. Test the private portal
+from `artwork/` and `previews/clone-rush-zoom-landscape.mp4` and
+`previews/clone-rush-zoom-portrait.mp4` in their respective video slots.
+Both videos are silent 16-second animated covers. Keep monetization disabled. Test the private portal
 preview at 907×510, 821×462, 800×450, and on a phone before submitting for review.
 
 The archive uses relative URLs and contains no CrazyGames SDK or advertising calls. Progress is stored locally in the browser.
