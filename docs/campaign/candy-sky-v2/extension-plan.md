@@ -38,7 +38,7 @@ different movement rules create new puzzles with a concrete completion witness.
 - [x] Add `src/game/LevelPages.js`, integrate arrows/page labels/visibility in
   `RoyalLevelSelect.js`; `LevelSelectScene` follows keyboard selection across pages.
 - [x] Remove fixed 24-level assumptions from runtime/viewport/asset/selector checks
-  and authoring tools. Preserve the cleanup contract for original map numbers;
+  and authoring tools. Preserve the cleanup contract for the first 24 Candy Sky maps;
   validate native fields for the whole extended campaign.
 - [x] Run Node regressions, full real-scene campaign checks, all-map visual replays,
   mobile regression suite and new page-two touch/layout/save checks.

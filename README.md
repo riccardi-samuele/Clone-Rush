@@ -1,5 +1,7 @@
 # Clone Rush — Candy Sky
 
+Ideato e sviluppato da **Samuele Riccardi**.
+
 Puzzle platform in Phaser 3: un solo comando controlla tutti i cloni.
 32 livelli, cinque tipi di clone, scena finale, salvataggi locali e controlli
 multitouch. Lobby, selezione, caricamento e partita condividono il kit Candy Sky:
@@ -88,4 +90,4 @@ usa input touch Chromium emulato; non sostituisce una prova sul telefono reale.
 Dettagli: [strumenti](tools/README.md), [campagna](docs/campaign/candy-sky-v2/README.md),
 [mobile](docs/mobile/README.md), [risorse](ASSETS.md).
 La pulizia è documentata in [docs/cleanup/](docs/cleanup/README.md).
-Il remix dei sei audio e le verifiche sono in [docs/audio/](docs/audio/README.md).
+La sintesi originale dei sei audio e le verifiche sono in [docs/audio/](docs/audio/README.md).

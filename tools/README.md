@@ -40,7 +40,7 @@ La galleria `docs/campaign/candy-sky-v2/index.html` legge le mappe direttamente
 da `public/data/levels.json` attraverso Vite; non esiste una seconda copia.
 Non sono necessari bundle o file del vecchio motore per avviare il gioco.
 
-## Remix audio
+## Produzione audio originale
 
 `publishing/render-original-audio.py` richiede Python, NumPy e
 `imageio-ffmpeg`. Genera musica ed effetti originali senza file audio sorgente.

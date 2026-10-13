@@ -1,23 +1,30 @@
 # Clone Rush — listing and promotional creative
 
+**Game developer:** Samuele Riccardi.
+
 ## Message
 
 The first glance should communicate the game's real hook: **one set of moves
 guides every clone**. The colorful sky makes it approachable; the shared jump,
 spikes and portal make it clear that the player is solving a coordination
-puzzle. This is the visual direction of cover variant B.
+puzzle. This is the visual direction of the final covers.
 
-The existing `artwork/publishing/covers/exports/` remains variant A. The new
-`artwork/publishing/covers/v2/exports/` is variant B and is now copied into
-both portal delivery folders. It includes 1920×1080 landscape, 800×1200
+`artwork/publishing/covers/exports/` is copied into both portal delivery
+folders. It includes 1920×1080 landscape, 800×1200
 portrait, 800×800 square and 512×512 icon. Every cover contains only the game
 title as text. Original generated PNGs and prompt notes are kept beside the
 exports.
 
 ## Video
 
+Two separate, silent seven-second promotional videos live in
+`artwork/publishing/promos/`. They animate a full-bleed camera zoom-out
+on the cover, without side bands, in landscape and portrait. They
+are intended for promotion outside the portal listings. Render
+them with `uv run --with imageio-ffmpeg python tools/publishing/render-zoom-promo.py`.
+
 Two 16.32-second muted previews are stored in
-`artwork/publishing/previews/v2/`. They begin with the corresponding variant B
+`artwork/publishing/previews/`. They begin with the corresponding
 cover and then show unaccelerated gameplay from levels 1, 2, 25 and 32. The
 landscape video is 1920×1080; the portrait video is 1080×1620. Their source
 recordings come from `tools/publishing/capture-marketing.mjs`; the edit is
@@ -53,9 +60,8 @@ static opening frame, full-screen landscape and portrait, and no sound.
   need an optional, clearly stated reward before they are offered.
 - **Future paid promotion:** use separate off-platform creative with a short
   text hook such as “Two clones. One move.” The portal covers themselves must
-  contain only the game title. Do not spend on acquisition until distribution
-  rights for inherited content are resolved and the private portal previews
-  are approved.
+  contain only the game title. Validate the private portal preview and the
+  first player engagement results before spending on acquisition.
 
 For the launch review, inspect each cover at thumbnail size, verify the first
 video frame matches it, and track the portal's actual engagement metrics after

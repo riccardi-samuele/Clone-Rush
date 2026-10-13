@@ -53,10 +53,18 @@ deterministico, senza campioni audio importati. Lo script
 durata è `artwork/audio-original-v2.json`. I nomi degli eventi e i volumi
 salvati restano quelli del gioco.
 
-I metadati fisici presenti nel catalogo hanno una provenienza storica dal
-prototipo Jumping Clones; verificare separatamente i diritti relativi a codice,
-regole e struttura dei livelli prima dell'invio ai portali.
+Il runtime corrente è implementato nei moduli Phaser/Matter di `src/`.
+Le 32 mappe Candy Sky e il finale sono definiti in
+`tools/candy-sky/create-campaign.mjs`, che riproduce `public/data/levels.json`.
+Il vecchio formato di mappe a tile non viene caricato ed è rifiutato dal runtime.
+
+Il catalogo conserva metadati fisici con provenienza storica dal prototipo
+Jumping Clones: identificatori, fixture e proprietà degli attori. Questa
+provenienza riguarda i metadati; non dimostra che il codice corrente o le mappe
+Candy Sky siano copie del prototipo.
 
 Il catalogo conserva le fixture, dimensioni, masse, attriti, gruppi di collisione
 e audio effettivamente necessari. Il controllo `npm run test:cleanup` confronta
-il contratto fisico con quello precedente alla pulizia.
+il contratto fisico con quello precedente alla pulizia di Candy Sky. Anche
+`docs/cleanup/map-contract.json` riguarda le mappe Candy Sky prima della
+pulizia, non le mappe del prototipo storico.

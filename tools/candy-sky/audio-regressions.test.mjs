@@ -9,11 +9,11 @@ const hash = async path => createHash('sha256').update(await readFile(path)).dig
 const names = new Map([[27,'Jump Sound'],[28,'Death Sound'],[29,'Exit Sound'],[30,'Bounce Sound'],[34,'Exit Key Sound'],[52,'Main Theme']]);
 test('all six sound events use original synthesis, with both browser formats', async () => {
   const catalog = await json('public/data/catalog.json');
-  const remix = await json('artwork/audio-original-v2.json');
-  assert.match(remix.source, /no imported audio or melodies/);
-  assert.deepEqual(remix.assets.map(a => a.id).sort((a,b) => a-b), [...names.keys()]);
+  const audio = await json('artwork/audio-original-v2.json');
+  assert.match(audio.source, /no imported audio or melodies/);
+  assert.deepEqual(audio.assets.map(a => a.id).sort((a,b) => a-b), [...names.keys()]);
   assert.equal(catalog.audio.length, 6);
-  for (const asset of remix.assets) {
+  for (const asset of audio.assets) {
     const entry = catalog.audio.find(a => a.id === asset.id);
     assert.equal(entry.name, names.get(asset.id)); assert.equal(entry.key, `audio-${asset.id}`);
     assert.deepEqual(new Set(asset.outputs.map(o => o.format)), new Set(['ogg','mp3']));

@@ -9,7 +9,7 @@ import imageio_ffmpeg
 ROOT = Path(__file__).resolve().parents[2]
 report = json.loads((ROOT / 'release/crazygames/qa/marketing-v2/capture.json').read_text())
 ffmpeg = imageio_ffmpeg.get_ffmpeg_exe()
-output = ROOT / 'artwork/publishing/previews/v2'
+output = ROOT / 'artwork/publishing/previews'
 output.mkdir(parents=True, exist_ok=True)
 
 # Start on the matching static cover; then show four actual levels at real speed.
@@ -18,7 +18,7 @@ segments = [(1, 2.8), (2, 4.0), (25, 4.0), (32, 4.0)]
 
 for name, width, height in [('landscape', 1920, 1080), ('portrait', 1080, 1620)]:
     capture = next(item for item in report['captures'] if item['name'] == name)
-    cover = ROOT / f'artwork/publishing/covers/v2/exports/clone-rush-{name}.png'
+    cover = ROOT / f'artwork/publishing/covers/exports/clone-rush-{name}.png'
     target = output / f'clone-rush-{name}-preview.mp4'
     cmd = [ffmpeg, '-hide_banner', '-loglevel', 'error', '-y',
            '-loop', '1', '-framerate', '30', '-t', '1.5', '-i', str(cover)]

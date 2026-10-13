@@ -32,16 +32,14 @@ the game paused until the player resumes it. Preserve local progress in both
 packages. This avoids tab-switch input/audio drift and aligns with GamePix's
 pause requirements. Existing control and level behavior stays the same.
 
-## Rights gate
+## Current implementation and provenance
 
-The prior audio derived from Robert Alvarez's *Jumping Clones* has been
-replaced with independent synthesis and removed from the current tree. The
-initial Git commit still contains it in history. The physical metadata and
-early campaign levels also have a documented historical link to that game;
-distribution rights for those parts remain unverified. GamePix explicitly
-places copyright responsibility on the submitter and CrazyGames checks
-originality. Do not submit to either portal until ownership or permission for
-the remaining game content is established, or that material is replaced.
+Corrected on 13 October: the runtime is implemented in Phaser/Matter and all
+32 current map layouts are defined by the Candy Sky authoring generator.
+The cleanup baseline preserves Candy Sky before cleanup; it is not evidence
+that the predecessor's maps remain in the release. Current audio is independent
+synthesis. Historically sourced actor metadata remains documented in
+`ASSETS.md`. See `readiness-2026-10-13.md` for the current publication assessment.
 
 ## Platform sources
 

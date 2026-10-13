@@ -1,6 +1,7 @@
 {
   "name": "clone-rush",
   "version": "1.0.0",
+  "author": "Samuele Riccardi",
   "private": true,
   "type": "module",
   "scripts": {

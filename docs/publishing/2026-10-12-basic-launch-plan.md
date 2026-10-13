@@ -35,7 +35,7 @@ art and metadata are outside the runtime. Browser lifecycle handling is shared.
 ### Task 3: Rights-clear audio
 
 - [x] Check for documented distribution rights. If absent, synthesize a new
-  original 6-track set using no samples, melodies or stems from Jumping Clones.
+  original 6-track set using no imported samples, melodies or stems.
 - [x] Export OGG and MP3, replace the runtime files and update provenance.
 - [x] Remove copied source audio from the current tree and verify the build and
   audio functionality. Preserve the previous Git commit for historical audit.

@@ -1,4 +1,4 @@
-# Clone Rush cover variant B — ImageGen prompts
+# Clone Rush covers — ImageGen prompts
 
 All three source PNGs in `originals/` were generated with the built-in
 `image_gen` tool on 12 October 2026. Existing Clone Rush covers and a gameplay
@@ -8,7 +8,7 @@ each generated source was checked visually for the exact words **CLONE RUSH**.
 
 ## Landscape
 
-> Use case: ads-marketing. Asset type: alternate landscape portal cover artwork
+> Use case: ads-marketing. Asset type: landscape portal cover artwork
 > for the existing game Clone Rush. Edit target: the existing landscape cover;
 > supporting reference: an actual gameplay screenshot. Preserve the Candy Sky
 > art direction and exact large, legible two-line title “CLONE RUSH”. Recompose
@@ -21,7 +21,7 @@ each generated source was checked visually for the exact words **CLONE RUSH**.
 
 ## Portrait
 
-> Use case: ads-marketing. Asset type: alternate portrait 2:3 cover for Clone
+> Use case: ads-marketing. Asset type: portrait 2:3 cover for Clone
 > Rush. Edit target: the existing portrait cover; supporting reference: the new
 > landscape cover. Preserve the exact two-line “CLONE RUSH” logo at top. Below
 > it, show the white and pink square clones jumping together over three silver
@@ -32,7 +32,7 @@ each generated source was checked visually for the exact words **CLONE RUSH**.
 
 ## Square
 
-> Use case: ads-marketing. Asset type: alternate square 1:1 cover for Clone
+> Use case: ads-marketing. Asset type: square 1:1 cover for Clone
 > Rush. Edit target: the existing square cover; supporting references: the new
 > landscape and portrait covers. Keep the exact two-line title large and crisp
 > at top. Below it, show the white and pink square clones jumping in sync over

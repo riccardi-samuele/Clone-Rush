@@ -13,6 +13,5 @@ uv run --with numpy --with imageio-ffmpeg python tools/publishing/render-origina
 npm run test:audio
 ```
 
-I nomi degli eventi, il volume configurabile e i trigger di gameplay sono
-rimasti invariati. La documentazione e le prove del precedente remix sono
-storiche e non descrivono più gli asset distribuiti.
+I sei eventi, il volume configurabile e i trigger di gameplay sono verificati
+dalla suite audio insieme alla riproduzione nel browser.

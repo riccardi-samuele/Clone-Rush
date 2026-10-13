@@ -6,6 +6,8 @@
 
 **Title:** Clone Rush
 
+**Developer:** Samuele Riccardi
+
 **Short description:** Lead every clone across floating candy islands and into its portal.
 
 **Description:** Clone Rush is a colorful puzzle platformer with 32 handcrafted levels. Guide multiple clones through candy sky islands, avoid spikes, collect keys, use springs, and reach the portals together. New stage layouts and mechanics build toward a final challenge. Play with keyboard or touch controls.

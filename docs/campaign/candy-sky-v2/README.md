@@ -40,7 +40,7 @@ Partita con clock normale, tastiera e video: `npm run test:maps:live`.
   Apertura trasparente centrata sul sensore originale, luci orbitali, pausa,
   stato bloccato, sblocco con chiavi e chiusura del portale rosa.
 - Pixel del terreno effettivamente renderizzato, confrontati con la sagoma
-  opaca del cubo sulle 11 isole con appoggio inferiore della campagna originale. La fisica e i
+  opaca del cubo sulle 11 isole con appoggio inferiore dei primi 24 livelli Candy Sky. La fisica e i
   metodi di movimento del Clone reale vengono ripetuti nei due versi, a 10 ms.
   Campionamento grafico: 4 pixel per unità; tolleranza massima: 0,5 unità.
   Ogni attraversamento deve arrivare all'altro estremo senza perdere appoggio.

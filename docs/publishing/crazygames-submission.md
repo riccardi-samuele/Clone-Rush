@@ -6,9 +6,11 @@
 
 **Title:** Clone Rush
 
+**Developer:** Samuele Riccardi
+
 **Short description:** Guide every clone through candy sky islands and glowing portals in a colorful precision platformer.
 
-**Description:** Clone Rush is a bright puzzle platformer where every move matters. Move and jump to guide all your clones through floating islands, spikes, keys, springs, and portals. Each stage remixes the rules and builds on what you learned before. Clear all 32 levels and reach the finale.
+**Description:** Clone Rush is a bright puzzle platformer where every move matters. Move and jump to guide all your clones through floating islands, spikes, keys, springs, and portals. Each stage introduces new challenges and builds on what you learned before. Clear all 32 levels and reach the finale.
 
 **Controls:** Desktop: A/D or Left/Right to move; W, Up, or Space to jump. On phones and tablets, use the on-screen movement and jump buttons. Pause with the button at the top right. The level selector is available from the pause menu.
 

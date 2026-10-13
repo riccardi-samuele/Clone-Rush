@@ -75,7 +75,7 @@ test('active generated artwork retains exact bytes and provenance', async () => 
   }
 });
 
-test('original maps preserve their geometry; the full campaign uses only native map fields', async () => {
+test('pre-cleanup Candy Sky maps preserve their geometry; the full campaign uses only native map fields', async () => {
   const data = await json('public/data/levels.json');
   const baseline = await json('docs/cleanup/map-contract.json');
   const actual = [...data.levels, data.ending].map(map => {
