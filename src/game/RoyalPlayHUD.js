@@ -19,7 +19,7 @@ export class RoyalPlayHUD {
     this.touchPlates = [];
     if (this.mobile) {
       for (const action of ['left', 'right', 'up']) {
-        scene.inputController.addButton(action, 0, 0, { width: 58, height: 58 });
+        scene.inputController.addButton(action, 0, 0, { width: 76, height: 76 });
         this.touchPlates.push(scene.add.image(0, 0, CANDY_UI, 'round').setOrigin(0).setDepth(499));
       }
     }
@@ -88,8 +88,9 @@ export class RoyalPlayHUD {
     }
     cover(scene.background, bounds.x, bounds.y, bounds.width, bounds.height);
     const short = height / density < 500;
+    const touchPixels = short && !portrait ? 72 : 76;
     const topPixels = (portrait ? 130 : short ? 67 : 125) * density;
-    const bottomPixels = (this.mobile ? short ? 66 : 86 : 22) * density;
+    const bottomPixels = (this.mobile ? touchPixels + 28 : 22) * density;
     const availableHeight = Math.max(80 * density, height - topPixels - bottomPixels);
     // Include complete island profiles, portal glows and the entry particles.
     const worldWidth = VIEW.width + 56, worldHeight = VIEW.height + 64;
@@ -120,10 +121,17 @@ export class RoyalPlayHUD {
     });
     this.labels.forEach((label, i) => label.setPosition(cx + (i - 1) * actionSpacing, cy + 14 + actionSize / 2 + 28)
       .setFontSize(Math.max(25, 12 / cssZoom)).setScale(1));
-    const touchSize = Math.max(100, 52 / cssZoom);
+    // Size controls in CSS pixels so Android browser bars and device density
+    // cannot shrink the visible buttons or their touch targets.
+    const touchSize = touchPixels / cssZoom;
+    const touchEdge = 16 / cssZoom;
+    const touchGap = 12 / cssZoom;
+    const touchBottom = 14 / cssZoom;
     scene.inputController.buttons.forEach((button, index) => {
-      const bx = button.action === 'left' ? bounds.x + 28 : button.action === 'right' ? bounds.x + 46 + touchSize : bounds.x + bounds.width - touchSize - 28;
-      const by = bounds.y + bounds.height - touchSize - 24;
+      const bx = button.action === 'left' ? bounds.x + touchEdge
+        : button.action === 'right' ? bounds.x + touchEdge + touchSize + touchGap
+        : bounds.x + bounds.width - touchSize - touchEdge;
+      const by = bounds.y + bounds.height - touchSize - touchBottom;
       button.hit.setPosition(bx, by).setSize(touchSize, touchSize);
       button.sprite.setPosition(bx + touchSize * .17, by + touchSize * .17).setDisplaySize(touchSize * .66, touchSize * .66);
       this.touchPlates[index].setPosition(bx, by).setDisplaySize(touchSize, touchSize);

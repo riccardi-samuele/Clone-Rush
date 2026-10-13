@@ -17,13 +17,16 @@ preserve the intended Candy Sky physics and map layouts during maintenance.
 
 ## Upload package
 
-- ZIP: `release/crazygames/clone-rush-crazygames.zip`, 16,004,535 bytes.
-- Runtime: 42 files, 17,565,049 extracted bytes.
-- SHA-256: `e38d4dd6cee78ca9a05112d83b77f0f438bc21690449410d14a5ffdc942aad76`.
+- ZIP: `release/crazygames/clone-rush-crazygames.zip`, 16,004,564 bytes.
+- Runtime: 42 files, 17,565,064 extracted bytes.
+- SHA-256: `cd13764f0e6719c28991b73f79b09ccf6d3f2776d9d54d83f8b8dd0fb9d7e32a`.
 - The HTML author metadata, portal submission sheets and package manifests name
   Samuele Riccardi as the game developer. Current game and storefront materials
   use the Clone Rush identity consistently.
 - SDK and ads absent, compatible with Basic Launch requirements.
+- Mobile movement and jump controls are 76 CSS pixels, or 72 in compact
+  landscape, with at least 12 pixels of separation. Five emulated phone flows
+  passed with simultaneous movement/jump, pause, rotation and level completion.
 - Archive integrity and both existing package contract tests passed on 13 October.
 - All seven cleanup checks passed, including exact reproduction of the shipped
   maps by the current generator without old backups.
@@ -38,6 +41,8 @@ preserve the intended Candy Sky physics and map layouts during maintenance.
 1. Upload the candidate through the developer account and validate the private
    CrazyGames preview, including input, progress persistence, audio interruption,
    pause and transitions.
+   In the HTML5 form, drag the contents of `release/crazygames/web/`, not the ZIP.
+   Select **Yes, using LocalStorage** for progress saving.
 2. Confirm supported devices using real-device checks where local emulation is
    insufficient, particularly iPhone/Safari and the CrazyGames app safe areas.
 3. Complete the developer declarations and submit for CrazyGames review.

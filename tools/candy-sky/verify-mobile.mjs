@@ -65,7 +65,18 @@ try {
         target: window.__target(b.hit, s.hud.camera) }]));
     });
     let controls = await getControls();
-    for (const [action, p] of Object.entries(controls)) check(Math.min(p.target.width, p.target.height) >= 51.9, `${name}: ${action} target`);
+    for (const [action, p] of Object.entries(controls)) {
+      check(Math.min(p.target.width, p.target.height) >= 71.9, `${name}: ${action} target`);
+      check(p.x - p.target.width / 2 >= 0 && p.x + p.target.width / 2 <= width
+        && p.y - p.target.height / 2 >= 0 && p.y + p.target.height / 2 <= height,
+      `${name}: ${action} stays inside the available screen`);
+    }
+    const horizontalControls = Object.values(controls).sort((a, b) => a.x - b.x);
+    for (let i = 1; i < horizontalControls.length; i++) {
+      const left = horizontalControls[i - 1], right = horizontalControls[i];
+      check(right.x - right.target.width / 2 - (left.x + left.target.width / 2) >= 11.9,
+        `${name}: movement targets have at least 12 CSS pixels between them`);
+    }
     const cdp = await page.context().newCDPSession(page);
     const touch = async (type, actions) => {
       await cdp.send('Input.dispatchTouchEvent', { type, touchPoints: actions.map((a, i) => ({ x: controls[a].x, y: controls[a].y, id: i + 1 })) });

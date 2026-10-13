@@ -8,8 +8,8 @@ size, URL format and the absence of portal SDK or ad calls, then writes SHA-256
 manifests. It converts six decorative PNG images to WebP in the release only,
 leaving gameplay terrain, clones and portals untouched. Python with Pillow is
 required for the packaging step. It leaves previews and browser QA captures in
-place. The resulting web bundle is 17,565,049 bytes (42 files), below
-CrazyGames' 20 MB mobile homepage threshold; the ZIP is 16,004,535 bytes.
+place. The resulting web bundle is 17,565,064 bytes (42 files), below
+CrazyGames' 20 MB mobile homepage threshold; the ZIP is 16,004,564 bytes.
 
 The current pre-submission assessment is `readiness-2026-10-13.md`, including
 the package SHA-256 digest and the remaining portal checks.
@@ -25,6 +25,10 @@ and reproduction commands are in `marketing.md`. The concise browser report is
 `artwork/publishing/promos/`.
 The `submission.md` in each release folder contains the English title,
 description, controls and portal steps.
+
+The CrazyGames HTML5 form accepts the contents of `release/crazygames/web/`,
+dragged with their directory structure; it rejects ZIP archives. Select the
+LocalStorage progress option, which appears after selecting HTML5.
 
 Browser checks loaded the extracted, optimized archive from `/web/` and reached lobby,
 level selection and gameplay at 907×510, 821×462, 800×450, 640×480 and

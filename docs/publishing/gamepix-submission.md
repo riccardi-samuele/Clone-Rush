@@ -12,7 +12,7 @@
 
 **Description:** Clone Rush is a colorful puzzle platformer with 32 handcrafted levels. Guide multiple clones through candy sky islands, avoid spikes, collect keys, use springs, and reach the portals together. New stage layouts and mechanics build toward a final challenge. Play with keyboard or touch controls.
 
-**Instructions:** Move all clones safely to their portals. Desktop: A/D or Left/Right to move; W, Up, or Space to jump. Touch: use the on-screen left, right, and jump buttons. The pause button opens resume, restart, and level selection.
+**Instructions:** Move all clones safely to their portals. Desktop: A/D or Left/Right to move; W or Up to jump. Touch: use the on-screen left, right, and jump buttons. The pause button opens resume, restart, and level selection.
 
 **Category:** Puzzle / Platform. **Players:** Single player. **Orientation:** Landscape preferred; portrait supported. **Suitable for:** 12+.
 
