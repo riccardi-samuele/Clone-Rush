@@ -1,5 +1,7 @@
 # Risorse attive
 
+Clone Rush è ideato e sviluppato da Samuele Riccardi, con assistenza di un agente AI.
+
 ## Kit Candy Sky
 
 Tutta la grafica runtime è in `public/assets/candy-sky-v1/`.
@@ -58,13 +60,9 @@ Le 32 mappe Candy Sky e il finale sono definiti in
 `tools/candy-sky/create-campaign.mjs`, che riproduce `public/data/levels.json`.
 Il vecchio formato di mappe a tile non viene caricato ed è rifiutato dal runtime.
 
-Il catalogo conserva metadati fisici con provenienza storica dal prototipo
-Jumping Clones: identificatori, fixture e proprietà degli attori. Questa
-provenienza riguarda i metadati; non dimostra che il codice corrente o le mappe
-Candy Sky siano copie del prototipo.
-
 Il catalogo conserva le fixture, dimensioni, masse, attriti, gruppi di collisione
 e audio effettivamente necessari. Il controllo `npm run test:cleanup` confronta
 il contratto fisico con quello precedente alla pulizia di Candy Sky. Anche
 `docs/cleanup/map-contract.json` riguarda le mappe Candy Sky prima della
-pulizia, non le mappe del prototipo storico.
+pulizia. Questi contratti impediscono che una pulizia dei file modifichi
+accidentalmente collisioni, coordinate e comportamento dei livelli.

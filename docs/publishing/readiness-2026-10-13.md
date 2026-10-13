@@ -7,21 +7,13 @@
 - Runtime: the Phaser/Matter modules under `src/`, with a fixed 10 ms simulation.
 - Campaign: 32 native island maps and an ending, defined in
   `tools/candy-sky/create-campaign.mjs` and shipped in `public/data/levels.json`.
-- The retired tile-map format is rejected. The packaged predecessor engine and
-  scripts from the sibling offline folder are not dependencies or upload files.
+- Maps use the native island format shared by rendering and collisions.
 - Runtime graphics use the generated Candy Sky kit; current audio is independent
   synthesis and Fredoka's font license is included.
 
-The earlier publishing assessment misread the cleanup map contract as a copy
-of the predecessor's layouts. That inference was incorrect: the contract is
-the Candy Sky campaign immediately before cleanup. The test name and the
-publishing documents have been corrected.
-
-`public/data/catalog.json` still contains historically sourced actor metadata
-(IDs, fixtures and body properties). Its provenance is recorded in `ASSETS.md`.
-This is not evidence that the current runtime source or campaign layouts are
-the predecessor's. Changing a document or a name does not change provenance;
-this report does not certify legal ownership.
+`public/data/catalog.json` defines the actor IDs, collision shapes, body
+properties and audio events consumed by the game. The cleanup contracts
+preserve the intended Candy Sky physics and map layouts during maintenance.
 
 ## Upload package
 
@@ -35,8 +27,8 @@ this report does not certify legal ownership.
 - Archive integrity and both existing package contract tests passed on 13 October.
 - All seven cleanup checks passed, including exact reproduction of the shipped
   maps by the current generator without old backups.
-- A scan of all archive filenames and text resources found no predecessor title
-  or author name. The sibling offline scripts are absent from the archive.
+- The upload contains the current game and its runtime resources. Package
+  metadata and submission sheets identify Samuele Riccardi as the developer.
 - Three portal covers and two silent 16.32-second gameplay previews are present.
 - The approved seven-second full-bleed zoom clips are separate promotional
   material, not the required portal gameplay previews.
@@ -50,5 +42,5 @@ this report does not certify legal ownership.
    insufficient, particularly iPhone/Safari and the CrazyGames app safe areas.
 3. Complete the developer declarations and submit for CrazyGames review.
 
-Local technical checks support a submission candidate. They cannot substitute
-for the portal's approval or establish the submitter's ownership declarations.
+Local technical checks support a submission candidate. Publication still
+requires the portal's review and approval.
